@@ -1,0 +1,11 @@
+# Obsidian workspace-local state (churns across devices)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian caches / plugin runtime
+.obsidian/cache
+.trash/
+
+# OS junk
+.DS_Store
+Thumbs.db
