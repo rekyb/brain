@@ -64,7 +64,7 @@ Atomic design is a model, not a law. Known friction points:
 
 - **In design tooling →** [[Atomic Design in Figma]] (components, variants, nested instances, [[Design Tokens]])
 - **With AI →** [[Atomic Design with AI Agents and MCP]] (why a clean atomic system makes AI code-gen dramatically more accurate)
-- **As a team →** [[Use Case(Learning Platform)]] (a step-by-step adoption playbook with a real-work simulation)
+- **As a team →** [[Use Case (Learning Platform)]] (a step-by-step adoption playbook with a real-work simulation)
 
 ---
 

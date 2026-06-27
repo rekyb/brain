@@ -9,3 +9,6 @@
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Nested git repo — Edbot v2 coordination meta-repo (its own git repo; not part of the vault)
+edbot-workspace/
