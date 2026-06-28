@@ -18,13 +18,13 @@ Hub note for the design-system cluster. Pairs with the [[Atomic Design]] cluster
 
 A common mistake is thinking "design system = component library." The library is one layer. The full stack:
 
-| Layer | What it is | Note |
-|---|---|---|
-| **Foundations / tokens** | Color, type, spacing, radius, motion — the atomic decisions | [[Design Tokens]] |
-| **Components** | Reusable UI built from tokens (atoms → organisms) | [[Component Library]] |
-| **Patterns** | Reusable solutions to recurring problems (forms, empty states, nav) | [[Patterns]] |
-| **Guidelines** | Usage rules, do/don't, accessibility, content/voice | — |
-| **Shared vocabulary** | "Molecule" / "card" means the same to design, eng, PM | [[Atomic Design]] |
+| Layer                    | What it is                                                          | Note                  |
+| ------------------------ | ------------------------------------------------------------------- | --------------------- |
+| **Foundations / tokens** | Color, type, spacing, radius, motion — the atomic decisions         | [[Design Tokens]]     |
+| **Components**           | Reusable UI built from tokens (atoms → organisms)                   | [[Component Library]] |
+| **Patterns**             | Reusable solutions to recurring problems (forms, empty states, nav) | [[Patterns]]          |
+| **Guidelines**           | Usage rules, do/don't, accessibility, content/voice                 | [[Component Guidelines — Template]] |
+| **Shared vocabulary**    | "Molecule" / "card" means the same to design, eng, PM               | [[Atomic Design]]     |
 
 ## Why teams build one
 
