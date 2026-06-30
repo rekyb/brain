@@ -26,7 +26,7 @@ The app intentionally stays small. Its value is as a vehicle for practising ever
 
 ## Feature list
 
-- Add, edit, and delete habits.
+- Add and delete habits.
 - Daily check-off grid (today's habits + done/not-done state).
 - Streak counter per habit (consecutive completed days).
 - Habit reminder: schedule a daily notification at a user-chosen time.
@@ -41,7 +41,7 @@ Each milestone lands at the end of the named chapter. Complete the capstone step
 | ------- | ----------------------- |
 | [[2.7 Side effects and lifecycle]] | **UI shell** — habit-list screen + add-habit screen, navigation wired between them, backed by static in-memory data. No persistence, no architecture layer yet. |
 | [[3.4 Repository pattern and data layer]] | **Reactive ViewModel + Hilt + repository** — UI is now driven by a `StateFlow<UiState>`; Hilt provides the repository; data is still in-memory but the architecture is in place. |
-| [[4.4 Offline-first and caching]] | **Persistence** — habits stored in Room (survive app restart); user settings in DataStore; optional daily-quote feature exercises the offline-first network → DB → UI pattern. |
+| [[4.4 Offline-first and caching]] | **Persistence** — habits stored in Room (survive app restart); daily check-off and per-habit streak persist in Room; user settings in DataStore; optional daily-quote feature exercises the offline-first network → DB → UI pattern. |
 | [[5.3 Notifications]] | **Reminders** — per-habit reminders scheduled via WorkManager; notifications posted on channel with Android 13+ permission flow handled. |
 | [[6.1 Testing]] | **Test suite** — unit tests for ViewModel state logic (fake repository, `runTest`/Turbine) + at least one Compose UI test asserting a screen renders a habit. |
 | [[7.2 Play Store launch]] | **Signed release build, upload-ready** — signed `.aab` produced, R8 minification confirmed working, store listing draft + Data safety form answers written. |
