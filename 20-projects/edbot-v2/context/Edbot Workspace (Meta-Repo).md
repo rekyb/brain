@@ -1,5 +1,7 @@
 ---
 title: Edbot Workspace (Meta-Repo)
+type: context
+project: edbot-v2
 aliases: [edbot-workspace, Edbot Meta-Repo, Edbot Tooling]
 tags: [edbot, workflow, tooling, git, reference]
 created: 2026-06-28

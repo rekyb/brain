@@ -1,5 +1,7 @@
 ---
 title: Component Library
+type: knowledge
+project: global
 aliases: [Component Library, UI Library, Component Kit]
 tags: [ux, design-systems, components, reference]
 created: 2026-06-27

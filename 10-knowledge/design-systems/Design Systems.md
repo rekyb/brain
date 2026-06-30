@@ -1,5 +1,7 @@
 ---
 title: Design Systems
+type: knowledge
+project: global
 aliases: [Design System, Design System (DS)]
 tags: [ux, design-systems, reference, moc]
 created: 2026-06-27

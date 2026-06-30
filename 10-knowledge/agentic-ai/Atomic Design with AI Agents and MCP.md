@@ -1,5 +1,7 @@
 ---
 title: Atomic Design with AI Agents and MCP
+type: knowledge
+project: global
 aliases: [Atomic Design AI, Atomic Design MCP, AI Design Systems MCP]
 tags: [ux, design-systems, atomic-design, ai, mcp, tooling, reference]
 created: 2026-06-27

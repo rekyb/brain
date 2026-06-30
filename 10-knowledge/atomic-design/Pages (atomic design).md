@@ -1,5 +1,7 @@
 ---
 title: Pages (atomic design)
+type: knowledge
+project: global
 aliases: [UI Pages, Atomic Design Pages]
 tags: [ux, design-systems, atomic-design, reference]
 created: 2026-06-27

@@ -1,5 +1,7 @@
 ---
 title: Organisms (atomic design)
+type: knowledge
+project: global
 aliases: [UI Organisms, Atomic Design Organisms]
 tags: [ux, design-systems, atomic-design, reference]
 created: 2026-06-27

@@ -1,5 +1,7 @@
 ---
 title: UI-UX Best Practices
+type: knowledge
+project: global
 aliases: [UI/UX Best Practices, UI UX Guidelines, Design Guidelines]
 tags: [ux, ui, design-systems, guidelines, reference, moc]
 created: 2026-06-28

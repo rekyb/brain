@@ -1,5 +1,7 @@
 ---
 title: Design Tokens
+type: knowledge
+project: global
 aliases: [Design Token, Tokens, UI Tokens]
 tags: [ux, design-systems, design-tokens, reference]
 created: 2026-06-27

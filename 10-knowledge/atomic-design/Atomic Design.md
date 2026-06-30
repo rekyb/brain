@@ -1,5 +1,7 @@
 ---
 title: Atomic Design
+type: knowledge
+project: global
 aliases: [Atomic Design Methodology, Atomic UI Design]
 tags: [ux, design-systems, atomic-design, reference, moc]
 created: 2026-06-27

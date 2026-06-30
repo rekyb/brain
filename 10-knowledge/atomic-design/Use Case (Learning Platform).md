@@ -1,5 +1,7 @@
 ---
 title: Use Case(Learning Platform)
+type: knowledge
+project: global
 aliases:
   - Atomic Design Playbook
   - Atomic Design Use Case

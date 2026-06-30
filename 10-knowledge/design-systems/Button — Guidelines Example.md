@@ -1,5 +1,7 @@
 ---
 title: Button — Guidelines
+type: knowledge
+project: global
 aliases: [Button Guidelines, Button Component, Lumina Button]
 tags: [ux, design-systems, guidelines, component, atom, reference]
 created: 2026-06-28

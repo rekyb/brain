@@ -1,5 +1,7 @@
 ---
 title: Atoms (atomic design)
+type: knowledge
+project: global
 aliases: [UI Atoms, Atomic Design Atoms]
 tags: [ux, design-systems, atomic-design, reference]
 created: 2026-06-27

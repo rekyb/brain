@@ -1,5 +1,7 @@
 ---
 title: Component Guidelines — Template
+type: knowledge
+project: global
 aliases: [Component Guidelines Template, Guideline Template, DS Doc Template]
 tags: [ux, design-systems, guidelines, template, reference]
 created: 2026-06-28

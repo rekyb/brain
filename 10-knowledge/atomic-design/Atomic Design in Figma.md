@@ -1,5 +1,7 @@
 ---
 title: Atomic Design in Figma
+type: knowledge
+project: global
 aliases: [Atomic Design Figma, Figma Component Library, Atomic Figma]
 tags: [ux, design-systems, atomic-design, figma, tooling, reference]
 created: 2026-06-27

@@ -1,5 +1,7 @@
 ---
 title: LEDGER Admin Prototype
+type: context
+project: edbot-v2
 aliases: [LEDGER, admin-2026-prototype, Edbot Admin Redesign]
 tags: [edbot, prototype, ux, design-systems, frontend]
 created: 2026-06-28

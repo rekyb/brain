@@ -1,5 +1,7 @@
 ---
 title: Accessibility Essentials
+type: knowledge
+project: global
 aliases: [Accessibility, a11y, Accessibility Essentials, WCAG Basics]
 tags: [ux, ui, accessibility, a11y, guidelines, reference]
 created: 2026-06-28

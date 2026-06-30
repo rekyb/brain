@@ -1,5 +1,7 @@
 ---
 title: Edbot Roadmap & Epics
+type: context
+project: edbot-v2
 aliases: [Edbot Roadmap, Edbot Epics, Phases and Levers]
 tags: [edbot, roadmap, product, process, reference]
 created: 2026-06-28

@@ -1,5 +1,7 @@
 ---
 title: Edbot v2
+type: moc
+project: edbot-v2
 aliases: [Edbot, Edbot.ai v2, edbot-workspace]
 tags: [edbot, project, architecture, moc]
 created: 2026-06-28

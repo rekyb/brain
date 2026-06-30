@@ -1,5 +1,7 @@
 ---
 title: Design Token Pipelines
+type: knowledge
+project: global
 aliases: [Token Pipeline, Style Dictionary, Token Transformation]
 tags: [ux, design-systems, design-tokens, tooling, reference]
 created: 2026-06-27

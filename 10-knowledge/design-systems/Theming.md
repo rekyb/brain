@@ -1,5 +1,7 @@
 ---
 title: Theming
+type: knowledge
+project: global
 aliases: [Theming, Themes, Dark Mode, Multi-brand]
 tags: [ux, design-systems, design-tokens, theming, reference]
 created: 2026-06-27

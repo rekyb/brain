@@ -1,5 +1,7 @@
 ---
 title: Module Contract (Core-Module-Integration)
+type: context
+project: edbot-v2
 aliases: [Core Module Integration, Edbot Module Contract, Removable Modules]
 tags: [edbot, architecture, modules, reference]
 created: 2026-06-28

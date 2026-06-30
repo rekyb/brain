@@ -1,5 +1,7 @@
 ---
 title: Templates (atomic design)
+type: knowledge
+project: global
 aliases: [UI Templates, Atomic Design Templates]
 tags: [ux, design-systems, atomic-design, reference]
 created: 2026-06-27

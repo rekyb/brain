@@ -1,5 +1,7 @@
 ---
 title: Compound Components
+type: knowledge
+project: global
 aliases: [Compound Component Pattern, Composable Components]
 tags: [ux, design-systems, components, react, reference]
 created: 2026-06-27

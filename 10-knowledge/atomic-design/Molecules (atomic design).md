@@ -1,5 +1,7 @@
 ---
 title: Molecules (atomic design)
+type: knowledge
+project: global
 aliases: [UI Molecules, Atomic Design Molecules]
 tags: [ux, design-systems, atomic-design, reference]
 created: 2026-06-27

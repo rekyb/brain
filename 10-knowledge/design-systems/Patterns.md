@@ -1,5 +1,7 @@
 ---
 title: Patterns
+type: knowledge
+project: global
 aliases: [Pattern Library, Design Patterns, UX Patterns]
 tags: [ux, design-systems, patterns, reference]
 created: 2026-06-27
