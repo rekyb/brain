@@ -45,7 +45,7 @@ brain/
 │       └── specs/        # what to build
 ├── 40-references/    # external sources, clippings
 ├── 90-templates/     # note / context / spec / project templates
-└── attachments/      # images, PDFs, binaries
+└── attachments/      # images, PDFs, binaries (created on first use)
 ```
 
 > **For AI agents:** see [`CLAUDE.md`](CLAUDE.md) — it explains how to navigate the vault, the frontmatter schema, and the context-vs-spec rule (status lives in ClickUp, not here).

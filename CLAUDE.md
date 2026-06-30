@@ -17,7 +17,8 @@ Agents read this vault as **background context** while working in separate code 
 | `20-projects/<project>/specs/` | Authoritative **specs** — what to build, with acceptance criteria. |
 | `40-references/` | External sources, clippings, quotes. |
 | `90-templates/` | Note templates: `knowledge-note`, `context-note`, `spec`, `project-index`. |
-| `attachments/` | Binaries (images, PDFs). |
+| `attachments/` | Binaries (images, PDFs). Created on first use. |
+| `docs/superpowers/` | Claude Code workflow artifacts (design specs, plans). **Not vault content** — historical; do not read as current state. |
 
 ## Where to start (reading)
 
@@ -35,7 +36,7 @@ type: knowledge | context | spec | reference | moc | daily
 project: <slug>        # omit or "global" for knowledge & reference
 status: draft | active | evergreen | shipped | archived
 created: YYYY-MM-DD
-updated: YYYY-MM-DD
+updated: YYYY-MM-DD    # optional; add/bump on first edit, not required at creation
 tags: [...]
 ```
 
