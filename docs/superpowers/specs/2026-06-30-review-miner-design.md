@@ -196,6 +196,26 @@ isolated.
 - Live scraping is verified manually, not in CI, since it depends on third-party
   sites.
 
+## Alternatives considered
+
+### n8n (low-code workflow platform) — rejected for v1
+
+n8n was evaluated as an alternative architecture. It is strong for API-based
+sources (native Reddit node), scheduling, notifications, and hosted input forms
+(Form Trigger). However, it cannot host the two hardest pieces of this spec:
+
+- **Playwright scraping (G2/Capterra):** n8n cannot run a headless browser; these
+  sites would require an *external* scraping/browser service, so the brittle part
+  lives outside n8n regardless.
+- **Clean Python collection libraries:** `app-store-scraper` /
+  `google-play-scraper` are Python; n8n's Code node is JS-first with no arbitrary
+  `pip` support, so these libraries would have to be rebuilt against raw endpoints.
+
+Choosing n8n would mean writing the scraping in Python anyway and maintaining
+two systems. The Python CLI is therefore retained. n8n remains a viable *future*
+add-on as an orchestrator/scheduler that invokes the CLI (Execute Command or a
+webhook) if recurring runs are ever wanted — this does not change the v1 design.
+
 ## Legal / maintenance note
 
 DIY scraping of G2/Capterra is ToS-sensitive and breaks when sites change markup
