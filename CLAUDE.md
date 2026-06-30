@@ -18,7 +18,7 @@ Agents read this vault as **background context** while working in separate code 
 | `40-references/` | External sources, clippings, quotes. |
 | `90-templates/` | Note templates: `knowledge-note`, `context-note`, `spec`, `project-index`. |
 | `attachments/` | Binaries (images, PDFs). Created on first use. |
-| `docs/superpowers/` | Claude Code workflow artifacts (design specs, plans). **Not vault content** — historical; do not read as current state. |
+| `docs/superpowers/` | Claude Code workflow artifacts (design specs, plans). **Not vault content** — historical; do not read as current state. Graph-isolated: no `[[wikilinks]]` to/from real notes. |
 
 ## Where to start (reading)
 
@@ -54,4 +54,5 @@ tags: [...]
 - Rough capture → `00-inbox/`; refine and file it later.
 - Always set `type` and (for project notes) `project`; bump `updated:` when you edit.
 - Link related notes with `[[wikilinks]]`. One idea per note. Keep notes focused.
-- Never put task status/progress in a note — that belongs in ClickUp.
+- Never put task status/progress in a note — that belongs in ClickUp/Slack.
+- Superpowers artifacts (`docs/superpowers/`) are historical process artifacts, not durable vault content — never add `[[wikilinks]]` connecting them to or from real notes, and never reference them from MOCs or any other note. They must remain isolated from the knowledge graph.
