@@ -11,12 +11,14 @@ analyze; synthesis happens afterward in Claude/ChatGPT.
 |------|---------|
 | [PRD.md](PRD.md) | Product Requirements — problem, users, scope, success criteria, user stories & acceptance criteria |
 | [DESIGN-SPEC.md](DESIGN-SPEC.md) | Technical design — architecture, connectors, data model, tech stack, alternatives considered |
+| [IMPLEMENTATION-PLAN.md](IMPLEMENTATION-PLAN.md) | TDD, task-by-task build plan with exact files, code, and test commands |
 
 ## Status
 
 - ✅ Brainstorming + design spec approved
 - ✅ PRD drafted (v0.1, 2026-06-30)
-- ⏳ Implementation — to be wired to an implementation agent (built code will live here under `20-projects/review-miner/`)
+- ✅ Implementation plan written (15 TDD tasks)
+- ⏳ Build — to be executed by an implementation agent (code will live here under `20-projects/review-miner/`)
 
 ## For the implementation agent
 
