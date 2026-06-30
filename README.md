@@ -1,6 +1,6 @@
 # 🧠 brain
 
-A personal knowledge vault of my [Obsidian](https://obsidian.md) "second brain" for capturing notes, ideas, references, and connections over time.
+A personal knowledge vault of my Obsidian vault for capturing notes, ideas, references, and connections over time.
 
 This repo *is* the vault: open the folder directly in Obsidian (**Open folder as vault**) and everything works out of the box.
 
