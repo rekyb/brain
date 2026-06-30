@@ -26,22 +26,31 @@ cd brain
 # then open the folder as a vault in Obsidian
 ```
 
-## Suggested structure
+## Structure
 
-The vault starts empty by design — let structure emerge from use rather than forcing it up front. A lightweight convention that scales well:
+The vault is organized for both human browsing and use as **context for context- & spec-driven agentic AI development**: a reusable knowledge base plus per-project areas that separate durable *context* from *specs*.
 
 ```
 brain/
-├── 00-inbox/      # Quick capture; unprocessed notes land here first
-├── 10-notes/      # Evergreen / permanent notes (the core of the brain)
-├── 20-daily/      # Daily notes (journal, log, scratch)
-├── 30-projects/   # Active work, goals, project-specific notes
-├── 40-references/ # Sources: books, articles, links, quotes
-├── 90-templates/  # Note templates
-└── attachments/   # Images, PDFs, and other binaries
+├── CLAUDE.md         # how AI agents read & use this vault
+├── 00-inbox/         # quick capture, unprocessed
+├── 10-knowledge/     # reusable, project-agnostic evergreen notes
+│   ├── design-systems/
+│   ├── atomic-design/
+│   └── agentic-ai/
+├── 20-projects/      # per-project context + specs
+│   └── edbot-v2/
+│       ├── edbot-v2.md   # project index (MOC)
+│       ├── context/      # durable understanding
+│       └── specs/        # what to build
+├── 40-references/    # external sources, clippings
+├── 90-templates/     # note / context / spec / project templates
+└── attachments/      # images, PDFs, binaries
 ```
 
-Folders are optional in Obsidian — links and tags do most of the organizing. Use folders only as far as they help.
+> **For AI agents:** see [`CLAUDE.md`](CLAUDE.md) — it explains how to navigate the vault, the frontmatter schema, and the context-vs-spec rule (status lives in ClickUp, not here).
+
+Folders carry real meaning here, but links and tags still do much of the organizing. Use folders only as far as they help.
 
 ## Conventions
 
