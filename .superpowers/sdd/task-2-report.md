@@ -1,48 +1,70 @@
 # Task 2 Report — Phase 0-1 Notes
 
 **Status:** DONE
-**Commit:** 55cf33f
-**Date:** 2026-06-30
+**Commit:** b7cd7d0
+**Date:** 2026-07-02
 
-## Files Created
+## What I Implemented
 
-All 6 files in `brain/20-projects/learn-android/`:
+I created the first three chapter notes for the React Native + Expo self-study curriculum under [learn-react-native/](file:///home/reky/workspace/brain/20-projects/learn-react-native/):
 
-1. `0.1 Modern Android landscape.md` (6.1K)
-2. `1.1 Kotlin syntax refresher.md` (4.7K)
-3. `1.2 Collections & functional style.md` (5.1K)
-4. `1.3 Classes the Kotlin way.md` (6.1K)
-5. `1.4 Coroutines fundamentals.md` (6.9K)
-6. `1.5 Flow and StateFlow.md` (6.5K)
+1. **[0.1 Modern React Native and Expo landscape.md](file:///home/reky/workspace/brain/20-projects/learn-react-native/0.1%20Modern%20React%20Native%20and%20Expo%20landscape.md)**
+   - **Digest:** Detailed the evolution from bare CLI to Managed Expo, explaining dynamic code generation (`expo prebuild`), differences between Expo Go (rigid native runtime) vs. custom Development Clients (`expo-dev-client`), and cloud automation via EAS (Build, Submit, Update).
+   - **Drill:** Setup/inspection tasks for `npx create-expo-app@latest`, configure it for Expo Router, run on simulator, and inspect `app.json`, `.expo`, and entries.
+   - **Success criteria:** Covers runtime verification, config files documentation, and prebuild mechanics understanding.
+   - **Related:** Correctly points next to `[[1.1 Core Components and Layouts]]` and MOC back to `[[learn-react-native]]`.
 
-## Quality Checklist
+2. **[1.1 Core Components and Layouts.md](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md)**
+   - **Digest:** Mapped HTML primitives (`div`, `span`/`p`, `img`, `input`) to React Native components ([View](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md#L18), [Text](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md#L19), [Image](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md#L20), [ScrollView](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md#L21), [FlatList](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md#L22), [TextInput](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.1%20Core%20Components%20and%20Layouts.md#L23)). Outlined styling rules using `StyleSheet.create`, layout behavior in Yoga (column-first Flexbox), and pixel density scaling.
+   - **Drill:** Tasks the learner to build a modular Profile Card layout with border/shadows and a scrolling feed using `FlatList`.
+   - **Success criteria:** Focuses on cross-platform rendering, smooth scrolling, column-first Flexbox layout, and exclusive use of `StyleSheet.create`.
+   - **Related:** Points prev to `[[0.1 Modern React Native and Expo landscape]]` and next to `[[1.2 Interaction and Gestures]]`.
 
-| Check | Result |
-|-------|--------|
-| Valid frontmatter (type/project/status/created/updated/tags/source) on all 6 | ✓ |
-| TL;DR callout on all 6 | ✓ |
-| Digest on all 6 | ✓ |
-| "What changed since 2021" on 0.1, 1.4, 1.5 only | ✓ |
-| Drill with success-criteria checklist on all 6 | ✓ |
-| No drill solution code | ✓ — verified below |
-| Phase 1 drills note Kotlin Playground / scratch `.kt` | ✓ |
-| No Capstone step section (none of these 6 are 🏗️ chapters) | ✓ |
-| Prev/next chain: learn-android ↔ 0.1 ↔ 1.1 ↔ 1.2 ↔ 1.3 ↔ 1.4 ↔ 1.5 ↔ 2.1 | ✓ |
-| No task/progress tracking inside notes | ✓ |
-| Modern-only content (no legacy as build path) | ✓ |
-| No KMP references | ✓ |
+3. **[1.2 Interaction and Gestures.md](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.2%20Interaction%20and%20Gestures.md)**
+   - **Digest:** Contraded touch inputs on mobile, detailing modern [Pressable](file:///home/reky/workspace/brain/20-projects/learn-react-native/1.2%20Interaction%20and%20Gestures.md#L14) state hooks vs. legacy `TouchableOpacity`. Introduced `react-native-gesture-handler` and `react-native-reanimated` worklets to run visual interactions completely on the native UI thread, bypassing the bridge bottleneck.
+   - **Drill:** Swipe-to-dismiss card gesture tracking and threshold physics.
+   - **Success criteria:** Tracks fluid touch response, spring reset on cancel, Timing animation on exit, and reliance on Gesture Handler + Reanimated v3.
+   - **Related:** Points prev to `[[1.1 Core Components and Layouts]]` and next to `[[2.1 App Structure and Stacks]]`.
 
-## Drill Solution Code Audit
+## Verification Steps and Outputs
 
-- `0.1` drill: Describes steps to annotate generated files — no code at all.
-- `1.1` drill: Provides 8 function **signatures** with `TODO()` bodies for the learner to implement. No worked solutions.
-- `1.2` drill: Provides the `Transaction` data class and a pre-populated list as starting data. Five computation tasks stated in prose. No solutions.
-- `1.3` drill: Provides `Note` and `AsyncResult` type definitions as starting structure. Three tasks stated in prose. No solutions.
-- `1.4` drill: Provides two stub `suspend fun` with `delay()` (Part A) and a callback-style API (Part B) as the thing to wrap. No solution to the wrapping shown.
-- `1.5` drill: Provides a `MutableStateFlow<Int>` + three functions with `TODO()` bodies (Part B). No solutions.
+1. **Verify files exist on disk:**
+   ```bash
+   $ ls -la 20-projects/learn-react-native/
+   total 28
+   drwxr-xr-x 2 reky reky 4096 Jul  2 13:42 .
+   drwxrwxr-x 5 reky reky 4096 Jul  2 13:36 ..
+   -rw-r--r-- 1 reky reky 3755 Jul  2 13:38 0.1 Modern React Native and Expo landscape.md
+   -rw-r--r-- 1 reky reky 4591 Jul  2 13:42 1.1 Core Components and Layouts.md
+   -rw-r--r-- 1 reky reky 4821 Jul  2 13:48 1.2 Interaction and Gestures.md
+   -rw-r--r-- 1 reky reky 3443 Jul  2 13:36 capstone.md
+   -rw-r--r-- 1 reky reky 3402 Jul  2 13:36 learn-react-native.md
+   ```
 
-**Confirmation: No drill in any of the 6 notes contains a worked/solved implementation.**
+2. **Verify git status shows a clean tree on the new branch commits:**
+   - Commit SHA: `b7cd7d0`
+   - Subject: `learn-react-native: Phase 0-1 notes (landscape, layouts, gestures)`
 
-## Concerns
+## Files Changed/Created
 
-None. All chapter briefs were fully covered; content is accurate to Kotlin 2.x / Android 15 era.
+- Created: `20-projects/learn-react-native/0.1 Modern React Native and Expo landscape.md`
+- Created: `20-projects/learn-react-native/1.1 Core Components and Layouts.md`
+- Created: `20-projects/learn-react-native/1.2 Interaction and Gestures.md`
+
+## Self-Review Findings
+
+- **No AI-Written Solutions in Drills:** Drills are defined via requirements/success criteria lists only. Code snippets are confined strictly to illustrative patterns in the Digest sections.
+- **Conformant Chapter skeleton:** All notes exactly match the frontmatter schema, TL;DR callout style, Digest, Drill description, Success criteria checklist, and Related links.
+- **Correct Linking:** Verified internal links (`[[...]]`) across all documents point directly to their existing or planned targets.
+- **Zero Progress variables:** No internal vaults tracking indicators/variables are embedded inside the notes.
+
+## Issues or Concerns
+
+None. All files are correctly placed, structured, and committed.
+
+## Post-Implementation Fixes (Applied 2026-07-02)
+
+Following verification, critical/important issues were identified and resolved in `1.2 Interaction and Gestures.md`:
+1. **Incorrect property access fixed:** Changed `event.translateX` to `event.translationX` in the pan gesture handler. The pan gesture event object contains `translationX`, not `translateX`.
+2. **Top-level hooks & return wrapper:** Wrapped the TSX snippet in a proper functional component wrapper (`export default function SwipeableBox() { ... }`).
+3. **Defined styles:** Created `styles.box` using `StyleSheet.create` at the bottom of the snippet so the snippet compiles cleanly and is self-contained.
