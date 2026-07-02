@@ -19,7 +19,7 @@ tags: [react-native, expo, learning, moc]
 
 1. Open the chapter note and read the **Digest** — it gives you the concept and, where relevant, contrasts the Web/Android way with what you do now in modern Expo.
 2. Close your laptop, open a blank file or sandbox, and do the **Drill by hand** — no AI assistance, no copy-pasting. Active struggle is the curriculum.
-3. When you reach a 🏗️ milestone chapter, complete the **Capstone step** before moving on. See [[capstone]] for the full milestone map.
+3. When you reach a 🏗️ milestone chapter, complete the **capstone step** before moving on. See [[capstone]] for the full milestone map.
 
 ---
 
