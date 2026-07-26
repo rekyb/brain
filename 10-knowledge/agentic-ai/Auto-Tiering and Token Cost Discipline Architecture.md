@@ -333,8 +333,8 @@ process.stdin.on('end', () => {
 
 ## Related Notes
 
-- [[Multi-Agent Build Harness Architecture]]
-- [[Multi-Agent Harness Organizational Model]]
-- [[Multi-Agent Harness Command Lifecycle]]
-- [[Two-Layer Guarding and Non-Bypassable Veto Architecture]]
+- [Multi-Agent Build Harness Architecture](Multi-Agent%20Build%20Harness%20Architecture.md)
+- [Multi-Agent Harness Organizational Model](Multi-Agent%20Harness%20Organizational%20Model.md)
+- [Multi-Agent Harness Command Lifecycle](Multi-Agent%20Harness%20Command%20Lifecycle.md)
+- [Two-Layer Guarding and Non-Bypassable Veto Architecture](Two-Layer%20Guarding%20and%20Non-Bypassable%20Veto%20Architecture.md)
 

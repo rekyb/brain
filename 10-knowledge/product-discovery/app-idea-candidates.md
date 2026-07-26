@@ -13,7 +13,7 @@ source:
 # App idea candidates — 22 problems
 
 > [!abstract] TL;DR
-> Brainstormed list of 22 problem areas for a from-scratch solo app, biased toward React Native/Expo skills (offline-first, sync queue, notifications). Each entry has App Store seed keywords for the research workflow in [[Free App Store Keyword Research]]. **Decision: deep-diving #14 (book tracker) first** — see [[book-tracker]].
+> Brainstormed list of 22 problem areas for a from-scratch solo app, biased toward React Native/Expo skills (offline-first, sync queue, notifications). Each entry has App Store seed keywords for the research workflow in [Free App Store Keyword Research](Free%20App%20Store%20Keyword%20Research.md). **Decision: deep-diving #14 (book tracker) first** — see [book-tracker](../../20-projects/book-tracker/book-tracker.md).
 
 ## Round 1
 
@@ -33,7 +33,7 @@ source:
 11. **Plant care guesswork** — watering reminders per plant/season; Planta paywall anger. Seeds: `plant watering reminder`, `plant care`
 12. **Baby/newborn logging** — feeds/diapers/sleep; high willingness to pay, ~12-month churn but constant new users; 3am offline reliability. Seeds: `baby feeding tracker`, `newborn log`
 13. **Gym progress in the Notes app** — fast set/rep/weight entry; Strong/Hevy paywall routines; niche variants (calisthenics, rehab). Seeds: `workout log`, `gym tracker`
-14. **Reading tracker** ⭐ *(chosen — see [[book-tracker]])* — Goodreads ancient, StoryGraph web-first; fast offline log + streaks + yearly goal; BookTok audience. Seeds: `reading tracker`, `book log`, `reading streak`, `goodreads alternative`
+14. **Reading tracker** ⭐ *(chosen — see [book-tracker](../../20-projects/book-tracker/book-tracker.md))* — Goodreads ancient, StoryGraph web-first; fast offline log + streaks + yearly goal; BookTok audience. Seeds: `reading tracker`, `book log`, `reading streak`, `goodreads alternative`
 15. **Chore rotation for households** — shared rotation + nudges; small social graph (2–5), sync-queue fits. Seeds: `chores app`, `roommate chores`
 16. **Private cycle tracking** — "data never leaves the device" as the pitch; real distrust of incumbents. Seeds: `period tracker private`, `cycle tracker offline`
 17. **Small landlord / kos-kosan rent management** — who paid, contract ends, meter readings; underserved in local language; B2B-ish pricing. Seeds: `rent tracker landlord`, `kos management`
@@ -45,10 +45,10 @@ source:
 
 ## Cross-cutting patterns
 
-Strongest solo-dev plays: **(a)** incumbent paywall anger (#3, #11, #13, #14), **(b)** privacy as the product (#16), **(c)** local-market gaps big players ignore (#9, #17, #21). See [[Finding App Ideas]].
+Strongest solo-dev plays: **(a)** incumbent paywall anger (#3, #11, #13, #14), **(b)** privacy as the product (#16), **(c)** local-market gaps big players ignore (#9, #17, #21). See [Finding App Ideas](Finding%20App%20Ideas.md).
 
 ## Related
 
-- [[Finding App Ideas]]
-- [[Free App Store Keyword Research]]
-- [[book-tracker]]
+- [Finding App Ideas](Finding%20App%20Ideas.md)
+- [Free App Store Keyword Research](Free%20App%20Store%20Keyword%20Research.md)
+- [book-tracker](../../20-projects/book-tracker/book-tracker.md)

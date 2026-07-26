@@ -1,6 +1,6 @@
 # GEMINI.md — How to use this vault
 
-This is **`brain`**, an Obsidian knowledge vault. It holds **context** (durable understanding) and **specs** (what to build). It is **not** a code repository — there is no app to run here. Every note is plain Markdown with YAML frontmatter, linked with `[[wikilinks]]`.
+This is **`brain`**, an Obsidian knowledge vault. It holds **context** (durable understanding) and **specs** (what to build). It is **not** a code repository — there is no app to run here. Every note is plain Markdown with YAML frontmatter, linked with relative markdown paths (e.g. `[display text](path/to/file.md)`). Do not use `[[wikilinks]]`.
 
 ## What you're here for
 
@@ -18,7 +18,7 @@ Agents (like Gemini / Antigravity) read this vault as **background context** whi
 | `40-references/` | External sources, clippings, quotes. |
 | `90-templates/` | Note templates: `knowledge-note`, `context-note`, `spec`, `project-index`. |
 | `attachments/` | Binaries (images, PDFs). Created on first use. |
-| `docs/superpowers/` | Agent workflow artifacts (design specs, plans). **Not vault content** — historical; do not read as current state. Graph-isolated: no `[[wikilinks]]` to/from real notes. |
+| `docs/superpowers/` | Agent workflow artifacts (design specs, plans). **Not vault content** — historical; do not read as current state. Graph-isolated: no links to/from real notes. |
 
 ## Where to start (reading)
 
@@ -53,6 +53,7 @@ tags: [...]
 - Reusable, project-agnostic knowledge → `10-knowledge/<area>/` using `90-templates/knowledge-note.md`.
 - Rough capture → `00-inbox/`; refine and file it later.
 - Always set `type` and (for project notes) `project`; bump `updated:` when you edit.
-- Link related notes with `[[wikilinks]]`. One idea per note. Keep notes focused.
+- Link related notes with relative markdown paths (e.g. `[display text](path/to/file.md)`). Do not use `[[wikilinks]]`. One idea per note. Keep notes focused.
 - Never put task status/progress in a note — that belongs in ClickUp/Slack.
-- Agent artifacts (`docs/superpowers/`) are historical process artifacts, not durable vault content — never add `[[wikilinks]]` connecting them to or from real notes, and never reference them from MOCs or any other note. They must remain isolated from the knowledge graph.
+- Agent artifacts (`docs/superpowers/`) are historical process artifacts, not durable vault content — never add links connecting them to or from real notes, and never reference them from MOCs or any other note. They must remain isolated from the knowledge graph.
+

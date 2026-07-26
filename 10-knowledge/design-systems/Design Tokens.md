@@ -12,13 +12,13 @@ source: "Design Tokens W3C Community Group + makandra + Figma"
 # 🎟️ Design Tokens
 
 > [!abstract] TL;DR
-> A **design token** is the smallest *named design decision* — a key/value pair (e.g. `color.primary.500 = #2D6CDF`) defined **once** and reused everywhere. In [[Atomic Design]] terms they're **"sub-atomic"**: atoms (a button) are built *from* tokens (its color, padding, radius). Change the token once → everything updates.
+> A **design token** is the smallest *named design decision* — a key/value pair (e.g. `color.primary.500 = #2D6CDF`) defined **once** and reused everywhere. In [Atomic Design](../atomic-design/Atomic%20Design.md) terms they're **"sub-atomic"**: atoms (a button) are built *from* tokens (its color, padding, radius). Change the token once → everything updates.
 
-Part of the [[Design Systems]] cluster. The foundation layer of any [[Component Library]].
+Part of the [Design Systems](Design%20Systems.md) cluster. The foundation layer of any [Component Library](Component%20Library.md).
 
 ## Why tokens exist
 
-Hardcoding `#2D6CDF` in 200 places means 200 edits to rebrand. A token names the decision so it lives in one place. Tokens also let you **re-theme** (light/dark, brand A/B) without touching components — see [[Theming]].
+Hardcoding `#2D6CDF` in 200 places means 200 edits to rebrand. A token names the decision so it lives in one place. Tokens also let you **re-theme** (light/dark, brand A/B) without touching components — see [Theming](Theming.md).
 
 ## The three layers (alias model)
 
@@ -54,7 +54,7 @@ Rule of thumb: **components consume semantic/component tokens, never primitives 
 
 ## In code
 
-Tokens are tool-agnostic JSON, then transformed per platform (see [[Design Token Pipelines]]):
+Tokens are tool-agnostic JSON, then transformed per platform (see [Design Token Pipelines](Design%20Token%20Pipelines.md)):
 
 ```css
 /* generated CSS custom properties */
@@ -68,15 +68,15 @@ Tokens are tool-agnostic JSON, then transformed per platform (see [[Design Token
 
 ## In Figma
 
-Tokens map to **Variables / styles** — the "sub-atomic" row in the [[Atomic Design in Figma]] mapping. Define them *before* drawing components so atoms inherit them.
+Tokens map to **Variables / styles** — the "sub-atomic" row in the [Atomic Design in Figma](../atomic-design/Atomic%20Design%20in%20Figma.md) mapping. Define them *before* drawing components so atoms inherit them.
 
 > [!tip] Pitfall
 > Don't tokenize everything. Token a value when it's a *reused decision*. One-off magic numbers don't need a token — that's just indirection with no payoff.
 
 ## Related
 
-- ↑ Consumed by → [[Atoms (atomic design)]] · [[Component Library]]
-- See also → [[Theming]] · [[Design Token Pipelines]] · [[Design Systems]] · [[Atomic Design in Figma]]
+- ↑ Consumed by → [Atoms (atomic design)](../atomic-design/Atoms%20%28atomic%20design%29.md) · [Component Library](Component%20Library.md)
+- See also → [Theming](Theming.md) · [Design Token Pipelines](Design%20Token%20Pipelines.md) · [Design Systems](Design%20Systems.md) · [Atomic Design in Figma](../atomic-design/Atomic%20Design%20in%20Figma.md)
 
 ## Sources
 

@@ -12,9 +12,9 @@ source: "React docs + Kent C. Dodds"
 # 🧬 Compound Components
 
 > [!abstract] TL;DR
-> A **compound component** is a set of components designed to work *together* as one unit, sharing implicit state — like `<Select>` + `<Select.Option>`. It gives a flexible, expressive API where the *parent* manages state and the *children* handle layout. Modern systems pair this with [[Atomic Design]] and [[Design Tokens]] to handle the **cross-cutting behavior** the strict atomic hierarchy struggles with.
+> A **compound component** is a set of components designed to work *together* as one unit, sharing implicit state — like `<Select>` + `<Select.Option>`. It gives a flexible, expressive API where the *parent* manages state and the *children* handle layout. Modern systems pair this with [Atomic Design](../atomic-design/Atomic%20Design.md) and [Design Tokens](Design%20Tokens.md) to handle the **cross-cutting behavior** the strict atomic hierarchy struggles with.
 
-Part of the [[Design Systems]] cluster. Referenced as a "modern take" in the [[Atomic Design]] pitfalls.
+Part of the [Design Systems](Design%20Systems.md) cluster. Referenced as a "modern take" in the [Atomic Design](../atomic-design/Atomic%20Design.md) pitfalls.
 
 ## The problem it solves
 
@@ -53,12 +53,12 @@ The parent `Tabs` holds the active state (often via React Context); children rea
 - **Skip** for truly atomic parts (a `Button`, an `Icon`) — composition adds nothing there.
 
 > [!tip] Trade-off
-> More flexibility = more ways to misuse it. Pair with sensible defaults and good docs/[[Patterns]] so consumers assemble the parts correctly.
+> More flexibility = more ways to misuse it. Pair with sensible defaults and good docs/[Patterns](Patterns.md) so consumers assemble the parts correctly.
 
 ## Related
 
-- Extends → [[Component Library]] · complements → [[Atomic Design]] · [[Patterns]]
-- Styled by → [[Design Tokens]] · part of → [[Design Systems]]
+- Extends → [Component Library](Component%20Library.md) · complements → [Atomic Design](../atomic-design/Atomic%20Design.md) · [Patterns](Patterns.md)
+- Styled by → [Design Tokens](Design%20Tokens.md) · part of → [Design Systems](Design%20Systems.md)
 
 ## Sources
 

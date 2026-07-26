@@ -51,7 +51,7 @@ source: github
 - NativeWind + tailwind-variants for styling
 - Full GitHub Actions + EAS Build CI/CD pipeline
 - Best for: **New projects** following modern ecosystem conventions
-- See [[rn-obytes-architecture-analysis]] for deep dive
+- See [rn-obytes-architecture-analysis](rn-obytes-architecture-analysis.md) for deep dive
 
 ## TheCodingMachine Boilerplate
 
@@ -82,9 +82,9 @@ source: github
 
 ## Related
 
-- [[rn-obytes-architecture-analysis]]
-- [[rn-best-practices]]
-- [[rn-scalable-paradigm]]
+- [rn-obytes-architecture-analysis](rn-obytes-architecture-analysis.md)
+- [rn-best-practices](rn-best-practices.md)
+- [rn-scalable-paradigm](rn-scalable-paradigm.md)
 
 ## Sources
 

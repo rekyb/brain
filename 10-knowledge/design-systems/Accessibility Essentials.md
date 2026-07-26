@@ -12,9 +12,9 @@ source: "W3C WCAG 2.2 + WebAIM + MDN"
 # ♿ Accessibility Essentials
 
 > [!abstract] TL;DR
-> **Accessibility (a11y)** means everyone can use your product — including people using keyboards, screen readers, magnification, or with low vision/motor/cognitive differences. It's a core [[UI-UX Best Practices|UI/UX best practice]], not an add-on. Anchor on **WCAG's POUR principles** (Perceivable, Operable, Understandable, Robust) and bake it into your [[Design Tokens|tokens]] and [[Component Library|components]] so it scales for free.
+> **Accessibility (a11y)** means everyone can use your product — including people using keyboards, screen readers, magnification, or with low vision/motor/cognitive differences. It's a core [UI/UX best practice](UI-UX%20Best%20Practices.md), not an add-on. Anchor on **WCAG's POUR principles** (Perceivable, Operable, Understandable, Robust) and bake it into your [tokens](Design%20Tokens.md) and [components](Component%20Library.md) so it scales for free.
 
-Companion to [[UI-UX Best Practices]]. Resolves the a11y/contrast/states threads referenced across the [[Atomic Design]] cluster.
+Companion to [UI-UX Best Practices](UI-UX%20Best%20Practices.md). Resolves the a11y/contrast/states threads referenced across the [Atomic Design](../atomic-design/Atomic%20Design.md) cluster.
 
 ---
 
@@ -34,7 +34,7 @@ Companion to [[UI-UX Best Practices]]. Resolves the a11y/contrast/states threads
 ### 1. Color & contrast
 - **Text contrast ≥ 4.5:1** (AA); large text ≥ 3:1. UI components/icons ≥ 3:1.
 - **Never rely on color alone** — pair with icon/text (e.g. quiz right/wrong needs ✓/✗, not just green/red).
-- Bake passing pairs into **semantic [[Design Tokens|tokens]]** and re-check them per [[Theming|theme]] (dark mode often breaks light-mode ratios).
+- Bake passing pairs into **semantic [tokens](Design%20Tokens.md)** and re-check them per [theme](Theming.md) (dark mode often breaks light-mode ratios).
 
 ### 2. Keyboard operability
 - **Everything works without a mouse** — Tab/Shift-Tab to move, Enter/Space to activate, Esc to dismiss.
@@ -43,7 +43,7 @@ Companion to [[UI-UX Best Practices]]. Resolves the a11y/contrast/states threads
 
 ### 3. Visible focus
 - Every interactive element shows a **clear focus ring**. Don't `outline: none` without a replacement.
-- Make focus a state in every [[Component Library|component]] (your notes already list `focus` as a required state).
+- Make focus a state in every [component](Component%20Library.md) (your notes already list `focus` as a required state).
 
 ### 4. Semantics & ARIA
 - **Use the right element** — a real `<button>`, `<a>`, `<input>`, `<nav>`. Native semantics give behavior + AT support free.
@@ -82,14 +82,14 @@ Companion to [[UI-UX Best Practices]]. Resolves the a11y/contrast/states threads
 - [ ] Touch targets ≥ 44px; works at 200% zoom
 
 > [!tip] Make it systemic
-> The cheapest a11y is built into the [[Design Systems|design system]]: token contrast pairs, a focus-state on every atom, an accessible `Input`/`Button` once. Then every screen inherits it — the same compounding payoff as [[Atomic Design]].
+> The cheapest a11y is built into the [design system](Design%20Systems.md): token contrast pairs, a focus-state on every atom, an accessible `Input`/`Button` once. Then every screen inherits it — the same compounding payoff as [Atomic Design](../atomic-design/Atomic%20Design.md).
 
 ---
 
 ## Related
 
-- Part of → [[UI-UX Best Practices]] · enforced via → [[Design Tokens]] · [[Component Library]]
-- See also → [[Theming]] · [[Patterns]] · [[Design Systems]]
+- Part of → [UI-UX Best Practices](UI-UX%20Best%20Practices.md) · enforced via → [Design Tokens](Design%20Tokens.md) · [Component Library](Component%20Library.md)
+- See also → [Theming](Theming.md) · [Patterns](Patterns.md) · [Design Systems](Design%20Systems.md)
 
 ## Sources
 

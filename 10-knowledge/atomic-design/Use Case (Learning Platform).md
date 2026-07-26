@@ -22,9 +22,9 @@ source: Synthesis of Brad Frost's *Atomic Design* + Figma best practices, applie
 # 🛠️ Atomic Design — Team Playbook (Learning Platform)
 
 > [!abstract] TL;DR
-> A step-by-step playbook for a cross-functional squad adopting [[Atomic Design]] on a real product. We follow a fictional-but-realistic learning platform, **Lumina Learn**, from messy UI to a maintainable [[Design Systems|design system]] — through tokens, atoms, molecules, organisms, templates, pages, and into code via [[Atomic Design with AI Agents and MCP|AI/MCP]].
+> A step-by-step playbook for a cross-functional squad adopting [Atomic Design](Atomic%20Design.md) on a real product. We follow a fictional-but-realistic learning platform, **Lumina Learn**, from messy UI to a maintainable [design system](../design-systems/Design%20Systems.md) — through tokens, atoms, molecules, organisms, templates, pages, and into code via [AI/MCP](../agentic-ai/Atomic%20Design%20with%20AI%20Agents%20and%20MCP.md).
 
-Applied companion to the [[Atomic Design]] cluster. Read the [[Atomic Design|hub]] first for the theory; this note shows *how a team actually does it*.
+Applied companion to the [Atomic Design](Atomic%20Design.md) cluster. Read the [hub](Atomic%20Design.md) first for the theory; this note shows *how a team actually does it*.
 
 ---
 
@@ -36,12 +36,12 @@ Applied companion to the [[Atomic Design]] cluster. Read the [[Atomic Design|hub
 
 | Role | Person | Owns |
 | --- | --- | --- |
-| Design System Owner | 1 senior designer | The library, naming, the [[Atoms (atomic design)\|atom]]/[[Molecules (atomic design)\|molecule]] taxonomy, sign-off |
-| Product Designers | 2 | Contribute components, design [[Pages (atomic design)\|pages]], flag gaps |
+| Design System Owner | 1 senior designer | The library, naming, the [atom](Atoms%20%28atomic%20design%29.md)/[molecule](Molecules%20%28atomic%20design%29.md) taxonomy, sign-off |
+| Product Designers | 2 | Contribute components, design [pages](Pages%20%28atomic%20design%29.md), flag gaps |
 | Frontend Engineers | 2 | Code components, wire **Code Connect**, keep code ↔ design in sync |
 | PM | 1 | Prioritizes, protects time for system work, tracks adoption |
 
-**The trigger (why now):** After a year of shipping fast, Lumina Learn has **four different button styles**, three "card" layouts, and inconsistent spacing. Every new screen re-invents UI; design→eng handoff is slow and lossy. Classic symptom — *designing pages, not a system*. (See the [[Atomic Design|hub]]: "we're not designing pages, we're designing systems of components.")
+**The trigger (why now):** After a year of shipping fast, Lumina Learn has **four different button styles**, three "card" layouts, and inconsistent spacing. Every new screen re-invents UI; design→eng handoff is slow and lossy. Classic symptom — *designing pages, not a system*. (See the [hub](Atomic%20Design.md): "we're not designing pages, we're designing systems of components.")
 
 > [!tip] When to run this playbook
 > Adopt atomic design when (a) UI inconsistency is visible to users, (b) the team is repeating itself, and (c) you expect the product to keep growing. For a one-screen prototype, skip it — it's overhead you don't need yet.
@@ -64,8 +64,8 @@ Applied companion to the [[Atomic Design]] cluster. Read the [[Atomic Design|hub
 
 **Goal:** define the shared decisions everything inherits. **Tokens first, always.**
 
-1. **Define [[Design Tokens]]** as Figma variables: color (primary, success/error for quiz feedback, neutrals), type scale, spacing, radius, elevation. These are the "sub-atomic" decisions.
-2. **Build the [[Atoms (atomic design)|atoms]]** as components: `Button`, `Input`, `Label`, `Icon`, `Avatar`, `Badge` (e.g. an XP/points badge), `ProgressBar` (lesson completion).
+1. **Define [Design Tokens](../design-systems/Design%20Tokens.md)** as Figma variables: color (primary, success/error for quiz feedback, neutrals), type scale, spacing, radius, elevation. These are the "sub-atomic" decisions.
+2. **Build the [atoms](Atoms%20%28atomic%20design%29.md)** as components: `Button`, `Input`, `Label`, `Icon`, `Avatar`, `Badge` (e.g. an XP/points badge), `ProgressBar` (lesson completion).
 3. **Catalogue them** in a dedicated library file (see Rituals → naming).
 
 > [!example] Lumina atom in focus — `ProgressBar`
@@ -79,17 +79,17 @@ Applied companion to the [[Atomic Design]] cluster. Read the [[Atomic Design|hub
 
 **Goal:** assemble atoms into purposeful units, then into recognizable sections.
 
-1. **[[Molecules (atomic design)|Molecules]]** — small groups with *one job each*:
+1. **[Molecules](Molecules%20%28atomic%20design%29.md)** — small groups with *one job each*:
    - `QuizOption` = `Label` + `Radio` + state styling
    - `SearchCourses` = `Label` + `Input` + `Button`
    - `LessonCardMeta` = `Icon` + duration text + `Badge`
-2. **[[Organisms (atomic design)|Organisms]]** — standalone sections nesting molecules:
+2. **[Organisms](Organisms%20%28atomic%20design%29.md)** — standalone sections nesting molecules:
    - `AppHeader` = logo atom + nav molecule + `Avatar` + XP `Badge`
    - `LessonGrid` = the **same** `LessonCard` molecule repeated
    - `QuizBlock` = question text + repeated `QuizOption` + submit `Button`
 
 > [!warning] The molecule/organism debate
-> The squad will argue whether `QuizBlock` is a "big molecule" or an "organism." **Don't burn a meeting on it** — if the label sparks more debate than value, you're being too rigid (see [[Atomic Design]] critique). Pick one, write it in the naming doc, move on.
+> The squad will argue whether `QuizBlock` is a "big molecule" or an "organism." **Don't burn a meeting on it** — if the label sparks more debate than value, you're being too rigid (see [Atomic Design](Atomic%20Design.md) critique). Pick one, write it in the naming doc, move on.
 
 **Deliverable:** molecules + organisms in the library, all built by *nesting* atom instances (never copy-paste).
 
@@ -99,10 +99,10 @@ Applied companion to the [[Atomic Design]] cluster. Read the [[Atomic Design|hub
 
 **Goal:** arrange organisms into layouts, then prove them against real content.
 
-1. **[[Templates (atomic design)|Templates]]** — skeletons with placeholder content:
+1. **[Templates](Templates%20%28atomic%20design%29.md)** — skeletons with placeholder content:
    - `CourseDashboardTemplate` = `AppHeader` + `LessonGrid` + sidebar progress
    - `LessonTemplate` = `AppHeader` + lesson body + `QuizBlock` + footer nav
-2. **[[Pages (atomic design)|Pages]]** — pour in **real** content and stress-test:
+2. **[Pages](Pages%20%28atomic%20design%29.md)** — pour in **real** content and stress-test:
    - A learner with a 40-character course title, no avatar, 0% progress.
    - A quiz with 6 long answer options on mobile width.
    - An empty state: "No courses yet."
@@ -120,7 +120,7 @@ Applied companion to the [[Atomic Design]] cluster. Read the [[Atomic Design|hub
 
 1. **Mirror the hierarchy in code.** Atoms → molecules → organisms as real React components matching the Figma names.
 2. **Wire up Code Connect** so the Figma `Button` maps to the actual `<Button>` component.
-3. **Use an MCP-connected agent** (e.g. Claude Code + Figma Dev Mode MCP) to generate screens. Because the system is clean and tokenized, the agent **reuses real components** instead of inventing new ones — reaching ~80–85% completeness fast. Full detail: [[Atomic Design with AI Agents and MCP]].
+3. **Use an MCP-connected agent** (e.g. Claude Code + Figma Dev Mode MCP) to generate screens. Because the system is clean and tokenized, the agent **reuses real components** instead of inventing new ones — reaching ~80–85% completeness fast. Full detail: [Atomic Design with AI Agents and MCP](../agentic-ai/Atomic%20Design%20with%20AI%20Agents%20and%20MCP.md).
 
 > [!note] AI amplifies whatever you give it
 > The clean atomic system built in Phases 1–3 is *exactly* what makes Phase 4 pay off. Garbage atoms → garbage generation. The investment compounds again here.
@@ -150,11 +150,11 @@ Tracing the **lesson browsing** feature end to end:
 | Level | Artifact |
 | --- | --- |
 | Token | `color/primary`, `space/4`, `radius/md` |
-| [[Atoms (atomic design)\|Atom]] | `Badge` (XP), `ProgressBar`, `Icon` |
-| [[Molecules (atomic design)\|Molecule]] | `LessonCard` = thumbnail + title + `LessonCardMeta` + `ProgressBar` |
-| [[Organisms (atomic design)\|Organism]] | `LessonGrid` = repeated `LessonCard` |
-| [[Templates (atomic design)\|Template]] | `CourseDashboardTemplate` = header + `LessonGrid` + sidebar |
-| [[Pages (atomic design)\|Page]] | "My Courses" with a real learner's 7 in-progress courses |
+| [Atom](Atoms%20%28atomic%20design%29.md) | `Badge` (XP), `ProgressBar`, `Icon` |
+| [Molecule](Molecules%20%28atomic%20design%29.md) | `LessonCard` = thumbnail + title + `LessonCardMeta` + `ProgressBar` |
+| [Organism](Organisms%20%28atomic%20design%29.md) | `LessonGrid` = repeated `LessonCard` |
+| [Template](Templates%20%28atomic%20design%29.md) | `CourseDashboardTemplate` = header + `LessonGrid` + sidebar |
+| [Page](Pages%20%28atomic%20design%29.md) | "My Courses" with a real learner's 7 in-progress courses |
 
 Change `radius/md` once → every `LessonCard` corner updates → every grid → every dashboard. That single edit propagating cleanly *is* the payoff.
 
@@ -166,15 +166,15 @@ Change `radius/md` once → every `LessonCard` corner updates → every grid →
 - **Bikeshedding the taxonomy.** The molecule/organism line is fuzzy by design — decide and document, don't debate.
 - **Detaching instances.** Breaks the propagation that makes the system worth having.
 - **Library mixed with product files.** Keep the system file separate from product design files.
-- **Treating the metaphor as law.** It strains at the top levels and has no neat home for cross-cutting behavior — pair with [[Design Tokens]] and compound patterns. See [[Atomic Design]] critique.
+- **Treating the metaphor as law.** It strains at the top levels and has no neat home for cross-cutting behavior — pair with [Design Tokens](../design-systems/Design%20Tokens.md) and compound patterns. See [Atomic Design](Atomic%20Design.md) critique.
 
 ---
 
 ## Related
 
-- [[Atomic Design]] (hub) · [[Atomic Design in Figma]] · [[Atomic Design with AI Agents and MCP]]
-- Stages: [[Atoms (atomic design)]] · [[Molecules (atomic design)]] · [[Organisms (atomic design)]] · [[Templates (atomic design)]] · [[Pages (atomic design)]]
-- [[Design Systems]] · [[Design Tokens]] · [[Component Library]]
+- [Atomic Design](Atomic%20Design.md) (hub) · [Atomic Design in Figma](Atomic%20Design%20in%20Figma.md) · [Atomic Design with AI Agents and MCP](../agentic-ai/Atomic%20Design%20with%20AI%20Agents%20and%20MCP.md)
+- Stages: [Atoms (atomic design)](Atoms%20%28atomic%20design%29.md) · [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md) · [Organisms (atomic design)](Organisms%20%28atomic%20design%29.md) · [Templates (atomic design)](Templates%20%28atomic%20design%29.md) · [Pages (atomic design)](Pages%20%28atomic%20design%29.md)
+- [Design Systems](../design-systems/Design%20Systems.md) · [Design Tokens](../design-systems/Design%20Tokens.md) · [Component Library](../design-systems/Component%20Library.md)
 
 ## Sources
 

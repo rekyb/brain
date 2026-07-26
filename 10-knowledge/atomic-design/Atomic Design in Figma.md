@@ -12,24 +12,24 @@ source: "Figma Best Practices + Figma Blog"
 # 🎨 Atomic Design in Figma
 
 > [!abstract] TL;DR
-> Figma maps cleanly onto [[Atomic Design]]: **[[Design Tokens]] = atomic decisions**, **components = atoms/molecules/organisms via nesting**, and **component properties/variants** keep the library lean. Build the library as a *separate file* and never detach instances.
+> Figma maps cleanly onto [Atomic Design](Atomic%20Design.md): **[Design Tokens](../design-systems/Design%20Tokens.md) = atomic decisions**, **components = atoms/molecules/organisms via nesting**, and **component properties/variants** keep the library lean. Build the library as a *separate file* and never detach instances.
 
-Applied companion to the [[Atomic Design]] cluster. See also → [[Atomic Design with AI Agents and MCP]].
+Applied companion to the [Atomic Design](Atomic%20Design.md) cluster. See also → [Atomic Design with AI Agents and MCP](../agentic-ai/Atomic%20Design%20with%20AI%20Agents%20and%20MCP.md).
 
 ## The mapping
 
 | Atomic stage | Figma construct |
 | --- | --- |
 | Tokens (sub-atomic) | **Variables / styles** — colors, type, spacing, radius |
-| [[Atoms (atomic design)\|Atoms]] | Base components: button, input, icon, avatar |
-| [[Molecules (atomic design)\|Molecules]] | Components with **nested instances** of atoms |
-| [[Organisms (atomic design)\|Organisms]] | Components nesting molecules (header, card grid) |
-| [[Templates (atomic design)\|Templates]] | Frames arranging organisms; layout, auto-layout |
-| [[Pages (atomic design)\|Pages]] | Frames with real content / populated instances |
+| [Atoms](Atoms%20%28atomic%20design%29.md) | Base components: button, input, icon, avatar |
+| [Molecules](Molecules%20%28atomic%20design%29.md) | Components with **nested instances** of atoms |
+| [Organisms](Organisms%20%28atomic%20design%29.md) | Components nesting molecules (header, card grid) |
+| [Templates](Templates%20%28atomic%20design%29.md) | Frames arranging organisms; layout, auto-layout |
+| [Pages](Pages%20%28atomic%20design%29.md) | Frames with real content / populated instances |
 
 ## Best practices (from Figma)
 
-- **Tokens first, always.** Define [[Design Tokens]] (variables) before drawing components — they're the shared atomic decisions everything inherits.
+- **Tokens first, always.** Define [Design Tokens](../design-systems/Design%20Tokens.md) (variables) before drawing components — they're the shared atomic decisions everything inherits.
 - **Nest, don't duplicate.** Build atom components and *nest instances* inside molecules/organisms. Changing the atom updates everything downstream — the whole point of a system.
 - **Prefer component properties over variant explosion.** Boolean, text, and instance-swap properties (plus *expose nested instances*) drastically cut the number of variants you must maintain.
 - **Use `/` naming for hierarchy.** `Button / Primary / Default` auto-groups in the Assets panel — a lightweight atomic taxonomy.
@@ -44,8 +44,8 @@ Applied companion to the [[Atomic Design]] cluster. See also → [[Atomic Design
 
 ## Related
 
-- [[Atomic Design]] · [[Design Tokens]] · [[Component Library]] · [[Design Systems]]
-- [[Atomic Design with AI Agents and MCP]]
+- [Atomic Design](Atomic%20Design.md) · [Design Tokens](../design-systems/Design%20Tokens.md) · [Component Library](../design-systems/Component%20Library.md) · [Design Systems](../design-systems/Design%20Systems.md)
+- [Atomic Design with AI Agents and MCP](../agentic-ai/Atomic%20Design%20with%20AI%20Agents%20and%20MCP.md)
 
 ## Sources
 

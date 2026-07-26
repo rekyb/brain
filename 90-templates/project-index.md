@@ -19,7 +19,7 @@ source:
 
 | Note | Covers |
 | ---- | ------ |
-| [[]] | |
+| [link](path/to/note.md) | |
 
 ## Context
 
@@ -27,7 +27,7 @@ Durable understanding lives in `context/`. Build intent lives in `specs/`.
 
 ## Related
 
-- [[]]
+- [link](path/to/note.md)
 
 ## Sources
 

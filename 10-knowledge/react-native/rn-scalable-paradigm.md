@@ -93,9 +93,9 @@ function useCheckout() {
 
 ## Related
 
-- [[rn-best-practices]]
-- [[rn-clean-architecture]]
-- [[rn-obytes-architecture-analysis]]
+- [rn-best-practices](rn-best-practices.md)
+- [rn-clean-architecture](rn-clean-architecture.md)
+- [rn-obytes-architecture-analysis](rn-obytes-architecture-analysis.md)
 
 ## Sources
 

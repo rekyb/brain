@@ -399,10 +399,10 @@ function decide({ state, payload, now, sidecar, windowMs = 30 * 60 * 1000, cap =
 
 ## Related Notes
 
-- [[Multi-Agent Build Harness Architecture]]
-- [[Multi-Agent Harness Organizational Model]]
-- [[Multi-Agent Harness Command Lifecycle]]
-- [[Auto-Tiering and Token Cost Discipline Architecture]]
-- [[Project Tailoring and Deterministic Rules Architecture]]
+- [Multi-Agent Build Harness Architecture](Multi-Agent%20Build%20Harness%20Architecture.md)
+- [Multi-Agent Harness Organizational Model](Multi-Agent%20Harness%20Organizational%20Model.md)
+- [Multi-Agent Harness Command Lifecycle](Multi-Agent%20Harness%20Command%20Lifecycle.md)
+- [Auto-Tiering and Token Cost Discipline Architecture](Auto-Tiering%20and%20Token%20Cost%20Discipline%20Architecture.md)
+- [Project Tailoring and Deterministic Rules Architecture](Project%20Tailoring%20and%20Deterministic%20Rules%20Architecture.md)
 
 

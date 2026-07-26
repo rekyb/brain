@@ -42,15 +42,15 @@ Each milestone lands at the end of the named chapter. Complete the capstone step
 
 | Chapter | What the capstone gains |
 | ------- | ----------------------- |
-| [[2.3 Dynamic Routing and Params]] | **UI shell** — Home screen, Habits dashboard, Settings view using Bottom Tabs, and Stack transition to Habit Detail (typed route parameters, no architecture/persistence layer). |
-| [[3.3 Dependency Injection via React Context]] | **MVVM with custom hooks ViewModels + DI** — All UI views driven by custom ViewModel hooks. Mock backend service injected via React Context. TanStack Query managed query-cache states. |
-| [[4.3 Offline-First Architecture]] | **Persistence & Offline Sync** — SQLite + Drizzle relational database for habits data. MMKV synchronous storage for preferences. Offline mutation queue tracking offline modifications and syncing back automatically on network restore. |
-| [[5.2 Notifications and Background Tasks]] | **Background Reminders** — AppState lifecycle monitoring. BackgroundFetch task scheduled to run periodically in the background, firing local notifications to remind users to complete outstanding habits. |
-| [[7.2 EAS Submit and Expo Updates]] | **Cloud Builds & Live Updates** — Configured `eas.json` profiles, signed production Android/iOS packages, and setup Expo Updates for OTA JS bundle publishing. |
+| [2.3 Dynamic Routing and Params](2.3%20Dynamic%20Routing%20and%20Params.md) | **UI shell** — Home screen, Habits dashboard, Settings view using Bottom Tabs, and Stack transition to Habit Detail (typed route parameters, no architecture/persistence layer). |
+| [3.3 Dependency Injection via React Context](3.3%20Dependency%20Injection%20via%20React%20Context.md) | **MVVM with custom hooks ViewModels + DI** — All UI views driven by custom ViewModel hooks. Mock backend service injected via React Context. TanStack Query managed query-cache states. |
+| [4.3 Offline-First Architecture](4.3%20Offline-First%20Architecture.md) | **Persistence & Offline Sync** — SQLite + Drizzle relational database for habits data. MMKV synchronous storage for preferences. Offline mutation queue tracking offline modifications and syncing back automatically on network restore. |
+| [5.2 Notifications and Background Tasks](5.2%20Notifications%20and%20Background%20Tasks.md) | **Background Reminders** — AppState lifecycle monitoring. BackgroundFetch task scheduled to run periodically in the background, firing local notifications to remind users to complete outstanding habits. |
+| [7.2 EAS Submit and Expo Updates](7.2%20EAS%20Submit%20and%20Expo%20Updates.md) | **Cloud Builds & Live Updates** — Configured `eas.json` profiles, signed production Android/iOS packages, and setup Expo Updates for OTA JS bundle publishing. |
 
 ## Related
 
-- [[learn-react-native]] — the full learning path MOC
+- [learn-react-native](learn-react-native.md) — the full learning path MOC
 
 > [!note] Tracking
 > Status/progress is tracked in ClickUp, NOT in this note.

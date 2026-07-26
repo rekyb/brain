@@ -12,7 +12,7 @@ source: "Synthesis of Shopify Polaris, IBM Carbon, Atlassian, Material, Salesfor
 # 📋 Component Guidelines — Template
 
 > [!info] How to use this template
-> Copy everything **below the line** into a new note named after the component (e.g. `Button — Guidelines`). Fill every `{{placeholder}}`, delete sections that genuinely don't apply, and link it from your [[Component Library]]. This is the **Guidelines** layer from [[Design Systems]] — usage rules, do/don't, accessibility, and content/voice. Mirrors the structure used by Polaris, Carbon, Atlassian, Material, and Lightning.
+> Copy everything **below the line** into a new note named after the component (e.g. `Button — Guidelines`). Fill every `{{placeholder}}`, delete sections that genuinely don't apply, and link it from your [Component Library](Component%20Library.md). This is the **Guidelines** layer from [Design Systems](Design%20Systems.md) — usage rules, do/don't, accessibility, and content/voice. Mirrors the structure used by Polaris, Carbon, Atlassian, Material, and Lightning.
 
 This note documents the template and the reasoning. The copy-paste version starts after the divider.
 
@@ -42,7 +42,7 @@ This note documents the template and the reasoning. The copy-paste version start
 | **Status** | {{Stable / Beta / Deprecated}} |
 | **Since** | {{v1.4}} |
 | **Owner** | {{team / person}} |
-| **Atomic level** | {{Atom / Molecule / Organism}} → [[Atomic Design]] |
+| **Atomic level** | {{Atom / Molecule / Organism}} → [Atomic Design](../atomic-design/Atomic%20Design.md) |
 | **Figma** | {{link}} |
 | **Code / Storybook** | {{link}} |
 
@@ -54,7 +54,7 @@ This note documents the template and the reasoning. The copy-paste version start
 2. **{{Label}}** — uses `{{token: font, color.text}}`
 3. **{{Icon (optional)}}** — uses `{{token: color.icon}}`
 
-> Built from [[Design Tokens]] + nested instances — never hardcoded values.
+> Built from [Design Tokens](Design%20Tokens.md) + nested instances — never hardcoded values.
 
 ## When to use
 
@@ -63,8 +63,8 @@ This note documents the template and the reasoning. The copy-paste version start
 
 ## When **not** to use
 
-- {{Wrong scenario}} → use **[[{{Alternative component}}]]** instead.
-- {{Another anti-scenario}} → see [[Patterns]].
+- {{Wrong scenario}} → use **[{{Alternative component}}](path/to/note.md)** instead.
+- {{Another anti-scenario}} → see [Patterns](Patterns.md).
 
 ## Variants & options
 
@@ -79,7 +79,7 @@ This note documents the template and the reasoning. The copy-paste version start
 
 ## States & behavior
 
-Cover every state (your [[Component Library]] standard):
+Cover every state (your [Component Library](Component%20Library.md) standard):
 
 - **Default / Hover / Focus / Active**
 - **Disabled** — {{when, and why; explain instead of leaving users guessing}}
@@ -112,19 +112,19 @@ Cover every state (your [[Component Library]] standard):
 
 ## Accessibility
 
-See [[Accessibility Essentials]] for the full checklist. Component-specific:
+See [Accessibility Essentials](Accessibility%20Essentials.md) for the full checklist. Component-specific:
 
 - [ ] **Keyboard:** {{Tab to reach, Enter/Space to activate, Esc to dismiss}}
 - [ ] **Focus:** visible focus indicator; logical order
 - [ ] **Semantics:** uses `{{<button> / role=…}}`; ARIA only to fill gaps
 - [ ] **Labels:** {{icon-only needs an accessible name}}
-- [ ] **Contrast:** text & UI ≥ WCAG AA (per [[Theming|theme]])
+- [ ] **Contrast:** text & UI ≥ WCAG AA (per [theme](Theming.md))
 - [ ] **Target size:** ≥ 44×44px
 
 ## Related
 
-- [[{{Related component}}]] · [[Patterns]] · [[Component Library]] · [[Design Tokens]]
-- [[UI-UX Best Practices]] · [[Accessibility Essentials]]
+- [{{Related component}}](path/to/note.md) · [Patterns](Patterns.md) · [Component Library](Component%20Library.md) · [Design Tokens](Design%20Tokens.md)
+- [UI-UX Best Practices](UI-UX%20Best%20Practices.md) · [Accessibility Essentials](Accessibility%20Essentials.md)
 
 ## Changelog
 

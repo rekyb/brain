@@ -17,7 +17,7 @@ source:
 
 ## Background
 
-Links to the durable context this relies on: [[]]
+Links to the durable context this relies on: [link](path/to/note.md)
 
 ## Requirements
 

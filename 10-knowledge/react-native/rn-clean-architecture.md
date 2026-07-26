@@ -13,7 +13,7 @@ source: community-consensus
 # React Native Clean Architecture
 
 > [!abstract] TL;DR
-> Clean Architecture in React Native separates the app into concentric layers (Domain → Application → Infrastructure → Presentation) where dependencies point inward. The inner layers are pure TypeScript with no React/RN imports. Most production teams find this too ceremonial and use a pragmatic [[rn-scalable-paradigm]] instead, but the concepts still apply.
+> Clean Architecture in React Native separates the app into concentric layers (Domain → Application → Infrastructure → Presentation) where dependencies point inward. The inner layers are pure TypeScript with no React/RN imports. Most production teams find this too ceremonial and use a pragmatic [rn-scalable-paradigm](rn-scalable-paradigm.md) instead, but the concepts still apply.
 
 ## The Layers
 
@@ -61,12 +61,12 @@ src/
 
 ## Why Most Teams Don't Use Full Clean Architecture
 
-React's compositional model (hooks calling hooks) already provides separation of concerns without OOP boilerplate. The [[rn-scalable-paradigm]] captures Clean Architecture concepts using React's native idioms.
+React's compositional model (hooks calling hooks) already provides separation of concerns without OOP boilerplate. The [rn-scalable-paradigm](rn-scalable-paradigm.md) captures Clean Architecture concepts using React's native idioms.
 
 ## Related
 
-- [[rn-scalable-paradigm]]
-- [[rn-best-practices]]
+- [rn-scalable-paradigm](rn-scalable-paradigm.md)
+- [rn-best-practices](rn-best-practices.md)
 
 ## Sources
 

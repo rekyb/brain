@@ -82,9 +82,9 @@ TypeScript is the default for all new React Native projects. Both RN CLI and Exp
 
 ## Related
 
-- [[rn-feature-sliced-architecture]]
-- [[rn-scalable-paradigm]]
-- [[rn-obytes-architecture-analysis]]
+- [rn-feature-sliced-architecture](rn-scalable-paradigm.md)
+- [rn-scalable-paradigm](rn-scalable-paradigm.md)
+- [rn-obytes-architecture-analysis](rn-obytes-architecture-analysis.md)
 
 ## Sources
 

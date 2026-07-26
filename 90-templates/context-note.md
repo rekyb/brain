@@ -21,7 +21,7 @@ source:
 
 ## Related
 
-- [[]]
+- [link](path/to/note.md)
 
 ## Sources
 

@@ -12,9 +12,9 @@ source: "Style Dictionary (Amazon) + Design Tokens W3C CG + Figma"
 # 🔧 Design Token Pipelines
 
 > [!abstract] TL;DR
-> A **token pipeline** turns one source of truth — your [[Design Tokens]] as platform-agnostic JSON — into the many formats each platform needs (CSS variables, JS, iOS, Android, Figma). Tools like **Style Dictionary** read the JSON and *transform + build* outputs, so design and code never drift. This is the plumbing that keeps a [[Design Systems|Design System]] in sync.
+> A **token pipeline** turns one source of truth — your [Design Tokens](Design%20Tokens.md) as platform-agnostic JSON — into the many formats each platform needs (CSS variables, JS, iOS, Android, Figma). Tools like **Style Dictionary** read the JSON and *transform + build* outputs, so design and code never drift. This is the plumbing that keeps a [Design System](Design%20Systems.md) in sync.
 
-Part of the [[Design Systems]] cluster. The operational backbone for [[Design Tokens]] and [[Theming]].
+Part of the [Design Systems](Design%20Systems.md) cluster. The operational backbone for [Design Tokens](Design%20Tokens.md) and [Theming](Theming.md).
 
 ## The problem
 
@@ -62,22 +62,22 @@ Tokens can flow **both directions**:
 - **Figma → code** — export Figma Variables to JSON, feed the pipeline (designers as source of truth).
 - **Code → Figma** — push JSON into Figma Variables (engineering as source of truth).
 
-Either way, pick *one* source of truth; see [[Atomic Design in Figma]] for the design side.
+Either way, pick *one* source of truth; see [Atomic Design in Figma](../atomic-design/Atomic%20Design%20in%20Figma.md) for the design side.
 
 ## Good practice
 
 - **One source of truth.** Decide whether Figma or the repo owns tokens — not both.
 - **Automate the build in CI.** Regenerate artifacts on token change; commit nothing by hand.
-- **Use the W3C token format.** Future-proof and tool-interoperable (see [[Design Tokens]]).
+- **Use the W3C token format.** Future-proof and tool-interoperable (see [Design Tokens](Design%20Tokens.md)).
 - **Version the output.** Token releases are breaking changes for consumers.
 
 > [!tip] Payoff
-> This is what makes [[Theming]] and rebrands cheap: change the source once, run the build, every platform updates together.
+> This is what makes [Theming](Theming.md) and rebrands cheap: change the source once, run the build, every platform updates together.
 
 ## Related
 
-- Transforms → [[Design Tokens]] · enables → [[Theming]] · feeds → [[Component Library]]
-- Bridges → [[Atomic Design in Figma]] · part of → [[Design Systems]]
+- Transforms → [Design Tokens](Design%20Tokens.md) · enables → [Theming](Theming.md) · feeds → [Component Library](Component%20Library.md)
+- Bridges → [Atomic Design in Figma](../atomic-design/Atomic%20Design%20in%20Figma.md) · part of → [Design Systems](Design%20Systems.md)
 
 ## Sources
 

@@ -37,8 +37,8 @@ source:
 
 ## Related
 
-- [[Finding App Ideas]]
-- [[book-tracker-validation-research-plan]]
+- [Finding App Ideas](Finding%20App%20Ideas.md)
+- [book-tracker-validation-research-plan](../../20-projects/book-tracker/specs/book-tracker-validation-research-plan.md)
 
 ## Sources
 

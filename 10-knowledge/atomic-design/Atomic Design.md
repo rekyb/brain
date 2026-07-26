@@ -12,7 +12,7 @@ source: "Brad Frost, *Atomic Design* (atomicdesign.bradfrost.com)"
 # 🧪 Atomic Design
 
 > [!abstract] TL;DR
-> Atomic design is a **mental model** for building [[Design Systems]], coined by Brad Frost. It borrows from chemistry: interfaces are broken into five hierarchical stages — **atoms → molecules → organisms → templates → pages** — so you can think about a UI as *both a cohesive whole and a collection of parts at the same time*.
+> Atomic design is a **mental model** for building [Design Systems](../design-systems/Design%20Systems.md), coined by Brad Frost. It borrows from chemistry: interfaces are broken into five hierarchical stages — **atoms → molecules → organisms → templates → pages** — so you can think about a UI as *both a cohesive whole and a collection of parts at the same time*.
 
 This is the **hub note** for the atomic-design cluster. Each stage has its own note; start here and follow the links.
 
@@ -32,11 +32,11 @@ The chemistry analogy: all matter breaks down into a finite set of atomic elemen
 
 | Stage | One-line definition | UI example | Note |
 |---|---|---|---|
-| ⚛️ **Atoms** | Foundational building blocks of a UI | label, input, button, color, font | [[Atoms (atomic design)]] |
-| 🧫 **Molecules** | Simple groups of atoms working as a unit | a search form (label + input + button) | [[Molecules (atomic design)]] |
-| 🦠 **Organisms** | Complex components of molecules/atoms/organisms | a site header; a product grid | [[Organisms (atomic design)]] |
-| 📐 **Templates** | Page-level structure with placeholder content | homepage skeleton / wireframe | [[Templates (atomic design)]] |
-| 📄 **Pages** | Templates filled with real, representative content | the live homepage | [[Pages (atomic design)]] |
+| ⚛️ **Atoms** | Foundational building blocks of a UI | label, input, button, color, font | [Atoms (atomic design)](Atoms%20%28atomic%20design%29.md) |
+| 🧫 **Molecules** | Simple groups of atoms working as a unit | a search form (label + input + button) | [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md) |
+| 🦠 **Organisms** | Complex components of molecules/atoms/organisms | a site header; a product grid | [Organisms (atomic design)](Organisms%20%28atomic%20design%29.md) |
+| 📐 **Templates** | Page-level structure with placeholder content | homepage skeleton / wireframe | [Templates (atomic design)](Templates%20%28atomic%20design%29.md) |
+| 📄 **Pages** | Templates filled with real, representative content | the live homepage | [Pages (atomic design)](Pages%20%28atomic%20design%29.md) |
 
 Mnemonic: **A**toms → **M**olecules → **O**rganisms → **T**emplates → **P**ages.
 
@@ -64,16 +64,16 @@ Atomic design is a model, not a law. Known friction points:
 
 ## Applying it in practice
 
-- **In design tooling →** [[Atomic Design in Figma]] (components, variants, nested instances, [[Design Tokens]])
-- **With AI →** [[Atomic Design with AI Agents and MCP]] (why a clean atomic system makes AI code-gen dramatically more accurate)
-- **As a team →** [[Use Case (Learning Platform)]] (a step-by-step adoption playbook with a real-work simulation)
+- **In design tooling →** [Atomic Design in Figma](Atomic%20Design%20in%20Figma.md) (components, variants, nested instances, [Design Tokens](../design-systems/Design%20Tokens.md))
+- **With AI →** [Atomic Design with AI Agents and MCP](../agentic-ai/Atomic%20Design%20with%20AI%20Agents%20and%20MCP.md) (why a clean atomic system makes AI code-gen dramatically more accurate)
+- **As a team →** [Use Case (Learning Platform)](Use%20Case%20%28Learning%20Platform%29.md) (a step-by-step adoption playbook with a real-work simulation)
 
 ---
 
 ## Related
 
-- [[Design Systems]] · [[Design Tokens]] · [[Component Library]]
-- Stages: [[Atoms (atomic design)]] · [[Molecules (atomic design)]] · [[Organisms (atomic design)]] · [[Templates (atomic design)]] · [[Pages (atomic design)]]
+- [Design Systems](../design-systems/Design%20Systems.md) · [Design Tokens](../design-systems/Design%20Tokens.md) · [Component Library](../design-systems/Component%20Library.md)
+- Stages: [Atoms (atomic design)](Atoms%20%28atomic%20design%29.md) · [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md) · [Organisms (atomic design)](Organisms%20%28atomic%20design%29.md) · [Templates (atomic design)](Templates%20%28atomic%20design%29.md) · [Pages (atomic design)](Pages%20%28atomic%20design%29.md)
 
 ## Sources
 

@@ -12,16 +12,16 @@ source: "Nielsen Norman Group + Brad Frost"
 # 🧱 Patterns
 
 > [!abstract] TL;DR
-> A **pattern** is a reusable *solution to a recurring design problem* — "how we do forms", "how we handle empty states", "how we paginate". Where a [[Component Library]] gives you the *parts*, patterns tell you *how to combine them to solve a known problem*. They're the layer of a [[Design Systems|Design System]] that captures **behavior and intent**, not just markup.
+> A **pattern** is a reusable *solution to a recurring design problem* — "how we do forms", "how we handle empty states", "how we paginate". Where a [Component Library](Component%20Library.md) gives you the *parts*, patterns tell you *how to combine them to solve a known problem*. They're the layer of a [Design System](Design%20Systems.md) that captures **behavior and intent**, not just markup.
 
-Part of the [[Design Systems]] cluster. Fills a gap [[Atomic Design]] doesn't fully address (cross-cutting behavior).
+Part of the [Design Systems](Design%20Systems.md) cluster. Fills a gap [Atomic Design](../atomic-design/Atomic%20Design.md) doesn't fully address (cross-cutting behavior).
 
 ## Component vs. pattern
 
-- **Component** — a reusable *thing* (a `Modal`, an `Input`). Lives in the [[Component Library]].
+- **Component** — a reusable *thing* (a `Modal`, an `Input`). Lives in the [Component Library](Component%20Library.md).
 - **Pattern** — a reusable *approach* to a problem ("destructive-action confirmation", "progressive disclosure", "inline validation"). It may *use* several components.
 
-> Your [[Atomic Design]] note flags this directly: the strict atom→page hierarchy has *"no home for cross-cutting behavior."* Patterns are that home.
+> Your [Atomic Design](../atomic-design/Atomic%20Design.md) note flags this directly: the strict atom→page hierarchy has *"no home for cross-cutting behavior."* Patterns are that home.
 
 ## Common pattern categories
 
@@ -42,15 +42,15 @@ Part of the [[Design Systems]] cluster. Fills a gap [[Atomic Design]] doesn't fu
 
 ## Pattern library
 
-A **pattern library** is the documented collection of these solutions — often living alongside the [[Component Library]] in the same docs site (e.g. Storybook + MDX guides). Together they make a [[Design Systems|Design System]] *prescriptive*, not just a parts bin.
+A **pattern library** is the documented collection of these solutions — often living alongside the [Component Library](Component%20Library.md) in the same docs site (e.g. Storybook + MDX guides). Together they make a [Design System](Design%20Systems.md) *prescriptive*, not just a parts bin.
 
 > [!tip] Why it matters
 > Two teams can use the same `Button` and `Modal` and still build inconsistent confirmation flows. Patterns standardize the *behavior*, which is where real inconsistency hides.
 
 ## Related
 
-- Uses → [[Component Library]] · built on → [[Design Tokens]]
-- Complements → [[Atomic Design]] · [[Compound Components]] · part of → [[Design Systems]]
+- Uses → [Component Library](Component%20Library.md) · built on → [Design Tokens](Design%20Tokens.md)
+- Complements → [Atomic Design](../atomic-design/Atomic%20Design.md) · [Compound Components](Compound%20Components.md) · part of → [Design Systems](Design%20Systems.md)
 
 ## Sources
 

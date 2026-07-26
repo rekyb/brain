@@ -8,7 +8,7 @@ This repo *is* the vault: open the folder directly in Obsidian (**Open folder as
 
 ## What this is
 
-A plain-text, Markdown-first knowledge base. Notes are linked together with `[[wikilinks]]`, surfaced through the graph and backlinks, and version-controlled with Git so nothing is ever lost.
+A plain-text, Markdown-first knowledge base. Notes are linked together with relative markdown paths, surfaced through the graph and backlinks, and version-controlled with Git so nothing is ever lost.
 
 No proprietary format — every note is a `.md` file you can read, grep, and edit with any tool.
 
@@ -16,7 +16,7 @@ No proprietary format — every note is a `.md` file you can read, grep, and edi
 
 1. Install [Obsidian](https://obsidian.md/download).
 2. **Open folder as vault** → select this `brain` directory.
-3. Start writing. Link notes with `[[Note Name]]` and watch the graph fill in.
+3. Start writing. Link notes with standard Markdown links (e.g. `[display text](path/to/file.md)`) and watch the graph fill in.
 
 To clone and sync elsewhere:
 
@@ -54,8 +54,9 @@ Folders carry real meaning here, but links and tags still do much of the organiz
 
 ## Conventions
 
-- **Links over folders** — connect notes with `[[wikilinks]]`; let the graph reveal relationships.
+- **Links over folders** — connect notes with relative markdown paths; let the graph reveal relationships.
 - **Tags for facets** — use `#tag` for cross-cutting themes (`#idea`, `#todo`, `#reference`).
+
 - **Properties for metadata** — YAML frontmatter (`---`) for status, dates, aliases, and structured fields.
 - **One idea per note** — small, atomic, well-titled notes link and reuse better than long ones.
 - **Capture first, organize later** — drop quick thoughts in the inbox; refine and link them afterward.

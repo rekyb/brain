@@ -14,11 +14,11 @@ source: "Brad Frost, *Atomic Design* Ch.2 (atomicdesign.bradfrost.com/chapter-2)
 > [!abstract] TL;DR
 > Templates are **page-level objects that place components into a layout and articulate the design's underlying content structure** — the skeleton, not the skin.
 
-Part of the [[Atomic Design]] cluster. One down: [[Organisms (atomic design)]] · one up: [[Pages (atomic design)]].
+Part of the [Atomic Design](Atomic%20Design.md) cluster. One down: [Organisms (atomic design)](Organisms%20%28atomic%20design%29.md) · one up: [Pages (atomic design)](Pages%20%28atomic%20design%29.md).
 
 ## What they are
 
-A template is where [[Organisms (atomic design)|organisms]] get arranged into an actual page layout. Crucially, templates *"focus on the page's underlying content structure rather than the page's final content."* They use **placeholder content** — lorem ipsum, grey boxes, sample image dimensions, representative character counts — to show how the structure behaves before real content arrives.
+A template is where [organisms](Organisms%20%28atomic%20design%29.md) get arranged into an actual page layout. Crucially, templates *"focus on the page's underlying content structure rather than the page's final content."* They use **placeholder content** — lorem ipsum, grey boxes, sample image dimensions, representative character counts — to show how the structure behaves before real content arrives.
 
 This is the stage that leaves the chemistry metaphor behind and uses plain client-facing language ("template" makes sense to stakeholders in a way "organism" doesn't).
 
@@ -30,13 +30,13 @@ A **homepage template**: the arrangement of header, hero, feature grid, and foot
 
 - Use templates to **define guardrails**: max headline length, image aspect ratios, how content reflows.
 - Test the *structure* here — does the layout hold up with long names, missing images, or empty states?
-- A template becomes a [[Pages (atomic design)|page]] the moment you pour real content in.
+- A template becomes a [page](Pages%20%28atomic%20design%29.md) the moment you pour real content in.
 
 ## Related
 
-- ↓ Arranges → [[Organisms (atomic design)]]
-- ↑ Instantiated as → [[Pages (atomic design)]]
-- See also → [[Atomic Design]]
+- ↓ Arranges → [Organisms (atomic design)](Organisms%20%28atomic%20design%29.md)
+- ↑ Instantiated as → [Pages (atomic design)](Pages%20%28atomic%20design%29.md)
+- See also → [Atomic Design](Atomic%20Design.md)
 
 ## Sources
 

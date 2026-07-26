@@ -17,7 +17,7 @@ source:
 
 ## Background
 
-Relies on: [[book-tracker-competitive-landscape]] (priors to test), [[Free App Store Keyword Research]] (method).
+Relies on: [book-tracker-competitive-landscape](../context/book-tracker-competitive-landscape.md) (priors to test), [Free App Store Keyword Research](../../../10-knowledge/product-discovery/Free%20App%20Store%20Keyword%20Research.md) (method).
 
 **Benchmark set**: Goodreads, StoryGraph, Bookly, Basmo, Bookmory, Reading List, + Fable or Hardcover as the social control.
 
@@ -91,7 +91,7 @@ Relies on: [[book-tracker-competitive-landscape]] (priors to test), [[Free App S
 - [ ] All A–E questions answered with evidence (links/screenshots/review quotes).
 - [ ] Feature matrix filled for the benchmark set.
 - [ ] Kill criteria evaluated with an explicit go / no-go / pivot call.
-- [ ] Wedge decision recorded in [[book-tracker-competitive-landscape]] (habit-first vs Goodreads-exit vs stats vs TBR).
+- [ ] Wedge decision recorded in [book-tracker-competitive-landscape](../context/book-tracker-competitive-landscape.md) (habit-first vs Goodreads-exit vs stats vs TBR).
 
 ## Affected repos / files
 

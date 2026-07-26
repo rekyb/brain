@@ -14,7 +14,7 @@ source: "Brad Frost, *Atomic Design* Ch.2 (atomicdesign.bradfrost.com/chapter-2)
 > [!abstract] TL;DR
 > Atoms are **the foundational building blocks that comprise all our user interfaces** — the smallest functional units. They can't be broken down further without ceasing to be useful.
 
-Part of the [[Atomic Design]] cluster. Next stage up: [[Molecules (atomic design)]].
+Part of the [Atomic Design](Atomic%20Design.md) cluster. Next stage up: [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md).
 
 ## What they are
 
@@ -26,18 +26,18 @@ In chemistry, atoms are the basic units of matter, each with unique properties. 
 - **Abstract / token-like atoms:** color palette, fonts, animations, base typography
 - Anything that is a single, indivisible interface primitive
 
-> These abstract atoms map directly onto [[Design Tokens]] — the "atomic decisions" a whole system is built from.
+> These abstract atoms map directly onto [Design Tokens](../design-systems/Design%20Tokens.md) — the "atomic decisions" a whole system is built from.
 
 ## When to use / how to think about them
 
 - Define atoms (and tokens) **first** — they're the vocabulary everything else speaks.
 - Catalogue atoms in a style guide so the team sees all base styles in one place.
-- Don't try to design *meaning* at this level; atoms get their purpose once combined into [[Molecules (atomic design)]].
+- Don't try to design *meaning* at this level; atoms get their purpose once combined into [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md).
 
 ## Related
 
-- ↑ Combines into → [[Molecules (atomic design)]]
-- See also → [[Design Tokens]] · [[Atomic Design]]
+- ↑ Combines into → [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md)
+- See also → [Design Tokens](../design-systems/Design%20Tokens.md) · [Atomic Design](Atomic%20Design.md)
 
 ## Sources
 

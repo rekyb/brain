@@ -12,9 +12,9 @@ source: "Design Tokens W3C CG + CSS custom properties"
 # 🌗 Theming
 
 > [!abstract] TL;DR
-> **Theming** is swapping the *values* behind your [[Design Tokens]] without changing components — light/dark mode, multi-brand, high-contrast. It works because components reference **semantic tokens** (`color.surface`), and a theme just remaps those tokens to different **primitive** values. One swap, whole UI re-skins.
+> **Theming** is swapping the *values* behind your [Design Tokens](Design%20Tokens.md) without changing components — light/dark mode, multi-brand, high-contrast. It works because components reference **semantic tokens** (`color.surface`), and a theme just remaps those tokens to different **primitive** values. One swap, whole UI re-skins.
 
-Part of the [[Design Systems]] cluster. The payoff of the layered token model in [[Design Tokens]].
+Part of the [Design Systems](Design%20Systems.md) cluster. The payoff of the layered token model in [Design Tokens](Design%20Tokens.md).
 
 ## Why semantic tokens make it possible
 
@@ -30,7 +30,7 @@ If a button hardcodes `#fff`, you can't theme it. If it uses `color.surface`, yo
 "color.text":    "{gray.50}"
 ```
 
-Components never change — only the mapping does. (See the 3-layer model in [[Design Tokens]].)
+Components never change — only the mapping does. (See the 3-layer model in [Design Tokens](Design%20Tokens.md).)
 
 ## Implementation: CSS custom properties
 
@@ -66,8 +66,8 @@ document.documentElement.dataset.theme = "dark";
 
 ## Related
 
-- Powered by → [[Design Tokens]] · applied across → [[Component Library]]
-- Part of → [[Design Systems]] · piped via → [[Design Token Pipelines]]
+- Powered by → [Design Tokens](Design%20Tokens.md) · applied across → [Component Library](Component%20Library.md)
+- Part of → [Design Systems](Design%20Systems.md) · piped via → [Design Token Pipelines](Design%20Token%20Pipelines.md)
 
 ## Sources
 

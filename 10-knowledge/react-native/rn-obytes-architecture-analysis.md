@@ -146,9 +146,9 @@ Crashes at startup if env vars are wrong — not silently in production.
 
 ## Related
 
-- [[rn-scalable-paradigm]]
-- [[rn-best-practices]]
-- [[rn-architecture-repo-comparison]]
+- [rn-scalable-paradigm](rn-scalable-paradigm.md)
+- [rn-best-practices](rn-best-practices.md)
+- [rn-architecture-repo-comparison](rn-architecture-repo-comparison.md)
 
 ## Sources
 

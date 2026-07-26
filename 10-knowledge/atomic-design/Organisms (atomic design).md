@@ -12,9 +12,9 @@ source: "Brad Frost, *Atomic Design* Ch.2 (atomicdesign.bradfrost.com/chapter-2)
 # 🦠 Organisms
 
 > [!abstract] TL;DR
-> Organisms are **relatively complex UI components composed of groups of [[Molecules (atomic design)|molecules]] and/or [[Atoms (atomic design)|atoms]] and/or other organisms** — distinct, recognizable sections of an interface.
+> Organisms are **relatively complex UI components composed of groups of [molecules](Molecules%20%28atomic%20design%29.md) and/or [atoms](Atoms%20%28atomic%20design%29.md) and/or other organisms** — distinct, recognizable sections of an interface.
 
-Part of the [[Atomic Design]] cluster. One down: [[Molecules (atomic design)]] · one up: [[Templates (atomic design)]].
+Part of the [Atomic Design](Atomic%20Design.md) cluster. One down: [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md) · one up: [Templates (atomic design)](Templates%20%28atomic%20design%29.md).
 
 ## What they are
 
@@ -31,16 +31,16 @@ Both patterns are common: organisms can mix *different* molecules, or *repeat th
 
 - Build organisms to be **context-independent** — a header should work on any page.
 - They're the right granularity for "give me the whole nav" conversations with stakeholders.
-- Organisms feed into [[Templates (atomic design)|templates]], which arrange them on the page.
+- Organisms feed into [templates](Templates%20%28atomic%20design%29.md), which arrange them on the page.
 
 > [!note] This is the top of the clean metaphor
-> Above organisms, the chemistry analogy starts to strain — *templates* and *pages* are layout/content concepts, not "bigger molecules." That's expected; see [[Atomic Design]] critique.
+> Above organisms, the chemistry analogy starts to strain — *templates* and *pages* are layout/content concepts, not "bigger molecules." That's expected; see [Atomic Design](Atomic%20Design.md) critique.
 
 ## Related
 
-- ↓ Made of → [[Molecules (atomic design)]] · [[Atoms (atomic design)]]
-- ↑ Arranged by → [[Templates (atomic design)]]
-- See also → [[Atomic Design]]
+- ↓ Made of → [Molecules (atomic design)](Molecules%20%28atomic%20design%29.md) · [Atoms (atomic design)](Atoms%20%28atomic%20design%29.md)
+- ↑ Arranged by → [Templates (atomic design)](Templates%20%28atomic%20design%29.md)
+- See also → [Atomic Design](Atomic%20Design.md)
 
 ## Sources
 

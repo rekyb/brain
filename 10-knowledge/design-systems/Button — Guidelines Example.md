@@ -6,20 +6,20 @@ aliases: [Button Guidelines, Button Component, Lumina Button]
 tags: [ux, design-systems, guidelines, component, atom, reference]
 created: 2026-06-28
 status: evergreen
-source: "Worked example of [[Component Guidelines — Template]] — Lumina Learn"
+source: "Worked example of [Component Guidelines — Template](Component%20Guidelines%20%E2%80%94%20Template.md) — Lumina Learn"
 ---
 
 # 🔘 Button
 
 > [!abstract] Overview
-> Buttons trigger an immediate action or event — a single, clear user intent like *Start lesson*, *Submit quiz*, or *Save progress*. They are the most-used interactive [[Atoms (atomic design)|atom]] in Lumina Learn; consistency here is what killed the "four different button styles" problem from the [[Use Case (Learning Platform)|playbook]].
+> Buttons trigger an immediate action or event — a single, clear user intent like *Start lesson*, *Submit quiz*, or *Save progress*. They are the most-used interactive [atom](../atomic-design/Atoms%20%28atomic%20design%29.md) in Lumina Learn; consistency here is what killed the "four different button styles" problem from the [playbook](../atomic-design/Use%20Case%20%28Learning%20Platform%29.md).
 
 | | |
 |---|---|
 | **Status** | Stable |
 | **Since** | v1.0 |
 | **Owner** | Design System Owner (senior designer) |
-| **Atomic level** | Atom → [[Atomic Design]] |
+| **Atomic level** | Atom → [Atomic Design](../atomic-design/Atomic%20Design.md) |
 | **Figma** | `Lumina Library / Atoms / Button` |
 | **Code / Storybook** | `@lumina/ui` → `<Button>` · Storybook → *Atoms/Button* |
 
@@ -30,7 +30,7 @@ source: "Worked example of [[Component Guidelines — Template]] — Lumina Lear
 3. **Icon (optional)** — uses `color/on-primary`, sized to the label's line-height; leading or trailing
 4. **Loading spinner (optional)** — replaces the icon slot, keeps width stable
 
-> Built from [[Design Tokens]] + nested instances — never hardcoded colors or px.
+> Built from [Design Tokens](Design%20Tokens.md) + nested instances — never hardcoded colors or px.
 
 ## When to use
 
@@ -40,10 +40,10 @@ source: "Worked example of [[Component Guidelines — Template]] — Lumina Lear
 
 ## When **not** to use
 
-- For **navigation to another page/URL** → use a **[[Link]]** (`<a>`), styled as a link or, if it must look like a button, a link-styled button. Screen readers must hear "link," not "button."
+- For **navigation to another page/URL** → use a **[Link](Component%20Library.md)** (`<a>`), styled as a link or, if it must look like a button, a link-styled button. Screen readers must hear "link," not "button."
 - For **toggling a setting on/off** → use a **Switch** / **Checkbox**.
 - For **choosing one of several options** → use a **Radio group** or **Segmented control**.
-- For many low-priority actions crammed together → see overflow/menu [[Patterns]].
+- For many low-priority actions crammed together → see overflow/menu [Patterns](Patterns.md).
 
 ## Variants & options
 
@@ -57,14 +57,14 @@ source: "Worked example of [[Component Guidelines — Template]] — Lumina Lear
 | `fullWidth` | `true` / `false` | `true` on mobile widths or in narrow cards |
 
 > [!tip] One primary per view
-> Use **only one `primary` button per screen or section**. If everything is primary, nothing is. Demote the rest to `secondary`. (Visual hierarchy → [[UI-UX Best Practices]].)
+> Use **only one `primary` button per screen or section**. If everything is primary, nothing is. Demote the rest to `secondary`. (Visual hierarchy → [UI-UX Best Practices](UI-UX%20Best%20Practices.md).)
 
 ## States & behavior
 
 - **Default / Hover / Focus / Active** — distinct visual feedback within ~100ms of interaction.
 - **Disabled** — only when the action is genuinely unavailable; pair with context (e.g. helper text "Complete all questions to submit"). Don't disable silently — users can't tell *why*.
 - **Loading** — show an inline spinner, keep the label or swap to it, and **keep the button width fixed** so layout doesn't jump. Block repeat clicks.
-- **Error** — the button itself doesn't show errors; surface them on the field/form (see [[Accessibility Essentials]] → forms).
+- **Error** — the button itself doesn't show errors; surface them on the field/form (see [Accessibility Essentials](Accessibility%20Essentials.md) → forms).
 
 ## Do / Don't
 
@@ -72,12 +72,12 @@ source: "Worked example of [[Component Guidelines — Template]] — Lumina Lear
 > - ✅ Use a **verb-first, specific** label: *Start lesson*, *Submit quiz*.
 > - ✅ Keep **one `primary`** button per view; make it the visually dominant action.
 > - ✅ Show a **loading state** on submit to confirm the system heard the click.
-> - ✅ Use `danger` styling for destructive actions and confirm them ([[Patterns]]).
+> - ✅ Use `danger` styling for destructive actions and confirm them ([Patterns](Patterns.md)).
 
 > [!failure] Don't
 > - 🚫 Use vague labels like *OK*, *Submit*, or *Click here*.
 > - 🚫 Stack multiple `primary` buttons competing for attention.
-> - 🚫 Use a button to **navigate** — that's a [[Link]]'s job.
+> - 🚫 Use a button to **navigate** — that's a [Link](Component%20Library.md)'s job.
 > - 🚫 Delete-without-confirm, or rely on red **color alone** to signal danger (add an icon/label).
 
 ## Content & voice
@@ -93,7 +93,7 @@ source: "Worked example of [[Component Guidelines — Template]] — Lumina Lear
 
 ## Accessibility
 
-See [[Accessibility Essentials]] for the full checklist. Button-specific:
+See [Accessibility Essentials](Accessibility%20Essentials.md) for the full checklist. Button-specific:
 
 - [ ] **Keyboard:** reachable via Tab; activates on **Enter** *and* **Space**.
 - [ ] **Focus:** visible focus ring (uses `color/focus`); never `outline: none` without a replacement.
@@ -101,14 +101,14 @@ See [[Accessibility Essentials]] for the full checklist. Button-specific:
 - [ ] **Icon-only buttons:** must have an accessible name (`aria-label`), e.g. a bookmark icon → "Save course."
 - [ ] **Disabled vs. aria-disabled:** prefer `disabled`; if it must stay focusable to explain why, use `aria-disabled` + helper text.
 - [ ] **Loading:** announce state (`aria-busy` / live region) so it isn't silent for screen readers.
-- [ ] **Contrast:** label vs. fill ≥ 4.5:1; verify in **both** light and [[Theming|dark themes]].
+- [ ] **Contrast:** label vs. fill ≥ 4.5:1; verify in **both** light and [dark themes](Theming.md).
 - [ ] **Target size:** ≥ 44×44px (especially `sm` on touch).
 
 ## Related
 
-- [[Link]] · [[Patterns]] · [[Component Library]] · [[Design Tokens]] · [[Atoms (atomic design)]]
-- [[UI-UX Best Practices]] · [[Accessibility Essentials]] · [[Component Guidelines — Template]]
-- Applied context → [[Use Case (Learning Platform)]]
+- [Link](Component%20Library.md) · [Patterns](Patterns.md) · [Component Library](Component%20Library.md) · [Design Tokens](Design%20Tokens.md) · [Atoms (atomic design)](../atomic-design/Atoms%20%28atomic%20design%29.md)
+- [UI-UX Best Practices](UI-UX%20Best%20Practices.md) · [Accessibility Essentials](Accessibility%20Essentials.md) · [Component Guidelines — Template](Component%20Guidelines%20%E2%80%94%20Template.md)
+- Applied context → [Use Case (Learning Platform)](../atomic-design/Use%20Case%20%28Learning%20Platform%29.md)
 
 ## Changelog
 

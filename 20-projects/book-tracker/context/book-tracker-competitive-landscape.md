@@ -15,7 +15,7 @@ source:
 > [!abstract] TL;DR
 > Nobody cleanly owns **fast, offline, private, habit-first reading tracking**. Goodreads owns the social default but is ancient; StoryGraph owns stats but is web-first and slow on mobile; Bookly/Basmo own the habit angle but anger users with paywalls. The gap: "Duolingo streak energy, but for your own books, and your data stays on your phone."
 >
-> ⚠️ Draft from brainstorm (2026-07-09) — claims below are priors to be verified by [[book-tracker-validation-research-plan]], not confirmed findings.
+> ⚠️ Draft from brainstorm (2026-07-09) — claims below are priors to be verified by [book-tracker-validation-research-plan](../specs/book-tracker-validation-research-plan.md), not confirmed findings.
 
 ## How the market divides
 
@@ -49,12 +49,12 @@ Add book (search / ISBN scan / manual) → shelf status (TBR / Reading / Finishe
 
 ## Why it is this way
 
-Picked from [[app-idea-candidates]] (#14) because: passionate, vocal audience (BookTok, r/52book); incumbent paywall anger = validated demand; and near-total architecture reuse from a habit-tracker pattern (books ≈ habits, sessions ≈ check-offs, streaks ≈ streaks, same offline mutation queue).
+Picked from [app-idea-candidates](../../../10-knowledge/product-discovery/app-idea-candidates.md) (#14) because: passionate, vocal audience (BookTok, r/52book); incumbent paywall anger = validated demand; and near-total architecture reuse from a habit-tracker pattern (books ≈ habits, sessions ≈ check-offs, streaks ≈ streaks, same offline mutation queue).
 
 ## Related
 
-- [[book-tracker]] — project MOC
-- [[book-tracker-validation-research-plan]] — how these priors get tested
+- [book-tracker](../book-tracker.md) — project MOC
+- [book-tracker-validation-research-plan](../specs/book-tracker-validation-research-plan.md) — how these priors get tested
 
 ## Sources
 

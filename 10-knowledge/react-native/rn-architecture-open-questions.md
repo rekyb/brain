@@ -49,9 +49,9 @@ source: discussion
 
 ## Related
 
-- [[rn-obytes-architecture-analysis]]
-- [[rn-scalable-paradigm]]
-- [[rn-best-practices]]
+- [rn-obytes-architecture-analysis](rn-obytes-architecture-analysis.md)
+- [rn-scalable-paradigm](rn-scalable-paradigm.md)
+- [rn-best-practices](rn-best-practices.md)
 
 ## Sources
 

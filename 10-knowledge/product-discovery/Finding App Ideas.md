@@ -38,8 +38,8 @@ source:
 
 ## Related
 
-- [[Free App Store Keyword Research]]
-- [[app-idea-candidates]]
+- [Free App Store Keyword Research](Free%20App%20Store%20Keyword%20Research.md)
+- [app-idea-candidates](app-idea-candidates.md)
 
 ## Sources
 
