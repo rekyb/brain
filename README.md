@@ -39,8 +39,8 @@ brain/
 │   ├── atomic-design/
 │   └── agentic-ai/
 ├── 20-projects/      # per-project context + specs
-│   └── edbot-v2/
-│       ├── edbot-v2.md   # project index (MOC)
+│   └── <project>/
+│       ├── <project>.md   # project index (MOC)
 │       ├── context/      # durable understanding
 │       └── specs/        # what to build
 ├── 40-references/    # external sources, clippings
@@ -48,7 +48,8 @@ brain/
 └── attachments/      # images, PDFs, binaries (created on first use)
 ```
 
-> **For AI agents:** see [`CLAUDE.md`](CLAUDE.md) — it explains how to navigate the vault, the frontmatter schema, and the context-vs-spec rule (status lives in ClickUp, not here).
+> **For AI agents:** see [`CLAUDE.md`](CLAUDE.md) — it explains how to navigate the vault, the frontmatter schema, and the context-vs-spec rule (status lives in the issue tracker, not here).
+
 
 Folders carry real meaning here, but links and tags still do much of the organizing. Use folders only as far as they help.
 
