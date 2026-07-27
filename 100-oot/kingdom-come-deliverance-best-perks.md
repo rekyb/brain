@@ -7,114 +7,237 @@ status: evergreen
 created: 2026-07-27
 updated: 2026-07-27
 tags: [gaming, kcd, perks, guide, RPG]
-source: 
+source: https://kingdomcomedeliverance.wiki.gg/wiki/Perks
 ---
 
 # Kingdom Come: Deliverance - Best Perks Guide
 
+> [!info] Scope
+> This covers **Kingdom Come: Deliverance (2018)**, the first game — not KCD2, which uses a
+> different skill layout and perk names. All levels and effects below were verified against
+> [The Kingdom Come: Deliverance Wiki](https://kingdomcomedeliverance.wiki.gg/wiki/Perks) (wiki.gg).
+
 > [!abstract] TL;DR
-> In Kingdom Come: Deliverance, choosing the right perks greatly improves combat, survival, and lockpicking efficiency. Key must-haves include **Headcracker** (combat KOs), **Clinch Master** (grapple stuns), **Luck of the Drunk** (picks very hard locks while drunk), **Revenant** (passive HP regen), and **Routine II** (potion auto-brewing).
+> The highest-value picks are **Master Strike** (hidden, trained by Captain Bernard — trivialises
+> most melee), **Mule I–III** (carry weight is the real early-game bottleneck), **Routine I + II**
+> (potion auto-brewing, 3 potions for the price of 1), **Headcracker** (Strength 8, non-lethal KOs),
+> and **Cartographer** (Reading 14, reveals the whole map). **Revenant** and **Last Gasp** (Vitality 12)
+> are the strongest survivability picks.
+
+## How perk points work
+
+- A perk's listed level is the **minimum stat/skill level** required to select it.
+- Perk points unlock at fixed thresholds per stat/skill (e.g. Defence at 4/8/12/16/20; Maintenance at
+  3/6/9/12/15/18/20), so you cannot take every perk in a tree — most tiers force a choice.
+- Several perks are **mutually exclusive** (Burgher/Savage, Highborn/Lowborn, Racehorse/Heavy Pony Duty,
+  Marathon Man/Sprinter, Beer Bibber/Wine Bibber).
+- A few are **hidden perks** granted by actions rather than level-ups (Master Strike, Cuman Killer, Resistance).
+
+---
 
 ## 🏆 S-Tier Must-Have Perks
 
-- **Headcracker** *(Main Level 2)*: High chance to knock out enemies instantly with a head strike.
-- **Clinch Master** *(Strength Level 4)*: +50% chance to win clinches/grapples and stagger enemies for free hits.
-- **Luck of the Drunk** *(Lockpicking Level 6)*: Pick Very Hard locks easily while under the influence of alcohol.
-- **Revenant** *(Vitality Level 10)*: Passive health regeneration over time.
-- **Mule I, II, & III** *(Strength)*: Significantly increases maximum carry capacity.
+- **Master Strike** *(hidden — train with Captain Bernard, weapon skill 3+)*: combined block and
+  automatic unblockable counter-attack. The single most powerful combat unlock in the game.
+- **Mule I, II & III** *(Strength 4 / 8 / 12)*: +15 / +20 / +25 lbs carry capacity.
+- **Routine I & II** *(Alchemy 10 / 13)*: auto-brew known potions; Routine II yields 3 potions for the
+  price of one. Pair with **Bundle Alchemist** (Alchemy 10) for manual brewing — note the two compete
+  for the same tier, and Bundle Alchemist does **not** apply to auto-brew.
+- **Headcracker** *(Strength 8)*: +10% chance to knock an opponent out with a blow to the head.
+- **Revenant** *(Vitality 12)*: Health regenerates gradually — removes most bandage/potion downtime.
+- **Cartographer** *(Reading 14)*: reveals the entire map — settlements, hunting spots and caves.
+
+> [!warning] Commonly over-rated
+> **Luck of the Drunk** *(Lockpicking 6)* makes locks 30% easier **but 30% noisier**, and only while
+> drunk. It does not unlock Very Hard locks — those still need raw Lockpicking skill. Many players
+> prefer **Deft Grip** (same tier, no drawback).
 
 ---
 
-## 1. Main Stats Perks
+## 1. Stat Perks
 
 ### Main Level
-- **Headcracker** *(Level 2)*: High chance to knock out an opponent with a blow to the head.
-- **Burgher** vs. **Savage** *(Level 6)*: Pick **Burgher** (+1 to stats in towns/settlements) as most speech checks and trading occur in towns.
-- **First Aid I, II, & III**: Enables effective bandaging and reduces healing time/potion costs.
-- **Contemplative** *(Level 10)*: Stops hunger and exhaustion when standing still.
+Perk points at levels 2, 4, 6, 8, 10, 12.
+
+- **First Aid I / II / III** *(Lvl 3 / 6 / 10)*: enables bandaging; II and III make bandages 25% / 50%
+  more effective and add healing dialogue options.
+- **Burgher** vs **Savage** *(Lvl 6, exclusive)*: +1 Strength, Agility, Vitality and Speech in
+  towns (Burgher) or in the wilds (Savage). Burgher is the safer default — most checks happen in towns.
+- **Scout I / II / III** *(Lvl 2 / 6 / 10)*: increases fast-travel sight distance and +10% evasion each.
+- **Contemplative** *(Lvl 12)*: hunger and tiredness stop advancing while you stand still.
+- **Cuman Killer** *(hidden — kill 33 Cumans)*: Cumans are 50% more likely to flee from you, and your
+  strikes against them are more effective. This is a **Main Level** perk, not a Bow perk.
 
 ### Strength
-- **Clinch Master** *(Level 4)*: +50% chance to win clinches/grapples.
-- **Mule I, II, & III**: Boosts carry weight capacity.
-- **Thick Skin** *(Level 8)*: Reduces incoming physical damage by 15%.
-- **Dreadful** *(Level 14)*: Causes low-tier enemies to panic and run away in combat.
+- **Stronghold** *(Lvl 2)*: blocking costs 30% less Stamina.
+- **Gravedigger** *(Lvl 2)*: carrying bodies costs no Stamina and weighs half as much.
+- **Clinch Master** *(Lvl 4)*: **one third** higher chance of overpowering an opponent in a clinch.
+- **Mule I** *(Lvl 4)*: +15 lbs · **Mule II** *(Lvl 8)*: +20 lbs · **Mule III** *(Lvl 12)*: +25 lbs.
+- **Tight Grip** *(Lvl 6)*: Stamina regeneration no longer slows in combat, even on backswing.
+- **Headcracker** *(Lvl 8)*: +10% chance to knock out an opponent with a head blow.
+- **Heavy Swing** *(Lvl 8)*: +20% attack damage for +10% Stamina cost.
+- **Dreadful** *(Lvl 14)*: foes are more likely to flee; those who stay fight less determinedly.
 
 ### Agility
-- **Featherweight** *(Level 4)*: Reduces fall damage by 30%.
-- **Light Touch** *(Level 8)*: Makes lockpicking noise quieter.
-- **Fast Striker** *(Level 12)*: Reduces stamina cost for fast weapon strikes.
+- **Dodger** *(Lvl 4)*: unlocks the sideways combat dodge.
+- **Featherweight** *(Lvl 8)*: 30% less fall damage.
+- **Fast Striker** *(Lvl 8)*: attacks cost 30% less Stamina but deal 20% less injury — Agility-based
+  weapons only.
+- **Light Armour** *(Lvl 8)*: 50% easier to dodge strikes while not wearing plate.
+- **Perfect Throw** *(Lvl 12)*: better dice rolls · **Taunt** *(Lvl 12)*: successful evasions lower enemy morale.
 
 ### Vitality
-- **Revenant** *(Level 10)*: Passive HP regeneration.
-- **Thickblooded** *(Level 6)*: Reduces bleeding speed by half.
-- **Marathon Man** *(Level 8)*: Sprint 20% slower, but consumes 50% less stamina.
+- **Marathon Man** *(Lvl 3)*: sprint 20% slower for 20% less Stamina (exclusive with **Sprinter**, Lvl 3).
+- **Thickblooded** *(Lvl 3)*: you bleed more slowly.
+- **Berserk** *(Lvl 9)*: Stamina regenerates 4× faster at critical Health.
+- **Blood Rush** *(Lvl 9)*: after defeating the first opponent in a fight, +50% attack and +25% Stamina
+  regeneration. (This is a **Vitality** perk, not Warfare.)
+- **Last Gasp** *(Lvl 12)*: survive one otherwise-fatal blow per fight, restoring 30% Health.
+- **Revenant** *(Lvl 12)*: Health regenerates gradually.
 
 ### Speech
-- **Silver Tongue** *(Level 4)*: Increases Speech stat when haggling with merchants.
-- **Highborn** *(Level 8)*: +3 Speech when talking to nobles and wealthy NPCs.
-- **Empathetic** *(Level 12)*: Shows exact stat numbers of NPCs during dialogue checks.
+- **Highborn** *(Lvl 4)*: +3 Speech with nobles and wealthy people (exclusive with **Lowborn**, +3 with commoners).
+- **Final Offer** *(Lvl 4)*: one extra offer when a trader loses patience while haggling.
+- **Silver Tongue** *(Lvl 8)*: stronger Speech when haggling with merchants.
+- **Empathetic** *(Lvl 8)*: shows your counterpart's stats in dialogue skill-checks.
+- **Troubadour** *(Lvl 8)*: +50% reputation gain with women, free bathhouse services.
+- **Trustworthy Middleman** *(Lvl 12)*: merchants are more willing to buy stolen goods.
 
 ---
 
-## 2. Combat Skills Perks
+## 2. Combat Perks
 
 ### Warfare
-- **Blood Rush** *(Level 7)*: Increases attack damage by 50% for a short time after killing an enemy.
-- **Sadist** *(Level 6)*: +1 Strength whenever you inflict a bleeding effect on an enemy.
-- **Furious** *(Level 10)*: Deals more damage the lower your health gets.
+- **Bloodletter** *(Lvl 4)*: greater chance of drawing blood · **Rusty Edge** *(Lvl 4)*: damaged swords
+  raise poison chance.
+- **Sadist** *(Lvl 8)*: +1 Strength whenever you draw an opponent's blood.
+- **Furious** *(Lvl 8)*: the more wounded you are, the stronger your attacks.
+- **Against All Odds** *(Lvl 12)*: +20% Strength, Agility, Warfare and Defence when outnumbered.
+- **Chain Strike** *(Lvl 12)*: each blow in an uninterrupted chain hurts more than the last.
+- **Feint** *(train with Captain Bernard)*: unlocks feints — bait the opponent's guard to the wrong
+  side, then strike where they aren't defending.
 
-### Defense
-- **Perfect Block** *(Train with Captain Bernard)*: Low-stamina blocks opening counter-attack windows.
-- **Master Strike** *(Train with Captain Bernard)*: Automatically blocks and counter-attacks simultaneously.
+### Defence
+- **Perfect Block** *(taught by Captain Bernard — a technique, not a perk)*: a well-timed block on the
+  green shield cue that costs no Stamina.
+- **Master Strike** *(hidden perk — Bernard's training, weapon skill 3+)*: block and unblockable
+  counter-attack in one automatic move. Unlocks for **all** weapon types at once.
+- **Firm Grip** *(Lvl 4)*: shield blocks drain 15% more enemy Stamina.
+- **Weapon-Cruncher** *(Lvl 4)*: winning clinches damages the opponent's weapon 15% more.
+- **Golem** *(Lvl 8)*: your armour is a third more intimidating.
+- **Well Worn** *(Lvl 12)*: equipment weighs a third less in inventory.
+- *(Riposte was cut from the game — only Master Strike survives in the shipped build.)*
 
-### Swords (Longsword / Shortsword)
-- **Wrath Strike / Scabbard Slash**: High-damage sword combos.
-- **Feint**: Manipulates guard direction to land unblockable heavy strikes.
+### Sword combos
+Sword "perks" are historical **combos**, unlocked by Sword skill level and practised with a trainer:
+
+- **Zorn ort: Wrath Strike** *(Lvl 3)*: parry aside, then thrust to the chest.
+- **Blunt Strike** *(Lvl 3)*: turn the weapon and strike with the blunt end / pommel.
+- **Double Stab** *(Lvl 5)* · **Fehler: Scarmaker** *(Lvl 5)*: feint a stab, cut to the face.
+- **False Edge** *(Lvl 6)* · **Fehler: Blinding Strike** *(Lvl 8)* · **Drei Wunder: Wrist** *(Lvl 8)*.
+- **Halbschwert: Half Sword** *(Lvl 10)* · **Durchlauffen: Run Through** *(Lvl 10)* · **Duplieren: Doubling** *(Lvl 13)*.
+
+> Combos are widely considered a trap against skilled opponents — they get interrupted, and Master
+> Strike out-performs them. There is no "Scabbard Slash" combo in the game.
 
 ### Mace & Axe
-- **Tin Opener** *(Mace Level 4)*: Increases damage dealt against heavy plate armor.
-- **Blunt Strike** *(Mace)*: High chance to stun or daze armored targets.
+- Mace combos: **Blunt Strike** *(Lvl 8)*, **Fehler: Blinding Strike** *(Lvl 9)*, **Drei Wunder: Forearm** *(Lvl 14)*.
+- Maces are strong against plate because of their **damage type**, not a perk — there is no Mace-tree
+  "Tin Opener". Tin Opener is a **Maintenance** perk (see below).
 
-### Bow / Marksmanship
-- **Cuman Killer**: Increases damage against Cuman enemies.
+### Bow
+- The vanilla game gives the **Bow skill no perks at all** (community mods such as *Blood and Iron* add
+  them). Bow level itself reduces sway and Stamina cost, and increases zoom.
+- Bow-adjacent perks live elsewhere: **Drinking Habit** *(Drinking 4)* gives +2 Bow while drunk and 25%
+  less hand shake; **Knight** *(Horsemanship 10)* covers mounted archery.
 
 ---
 
-## 3. General / Utility Skills Perks
+## 3. General / Utility Perks
 
 ### Alchemy
-- **Routine I & II** *(Level 10 & 13)*: Automates potion brewing. Routine II brews 3 high-quality potions instantly.
-- **Bundle Alchemist** *(Level 8)*: Yields extra potions per brewing session.
-- **Water of Life** *(Level 15)*: Healing potions heal faster and more effectively.
+- **Water of Life** *(Lvl 3)*: healing potions heal 50% more — but intoxicate you 50% more.
+- **Witcher** *(Lvl 3)*: potions fill you up 30% less, so you can drink more often.
+- **Bundle Alchemist** *(Lvl 10)*: one extra potion per successful brew — **does not apply to auto-brew**.
+- **Routine I** *(Lvl 10)*: auto-brew any potion you've brewed once, one at a time.
+- **Routine II** *(Lvl 13)*: auto-brewing produces 3 potions for the price of one.
 
 ### Lockpicking
-- **Luck of the Drunk** *(Level 6)*: Pick Very Hard locks easily while slightly drunk.
-- **Deft Grip** *(Level 3)*: Lockpicks start closer to the unlocking spot.
-- **Lasting Lockpicks** *(Level 9)*: Lockpicks are twice as durable.
+- **Lasting Lockpicks** *(Lvl 3)*: lockpicks last twice as long.
+- **Repairman** *(Lvl 3)*: 20% chance a broken lockpick returns to your inventory.
+- **Deft Grip** *(Lvl 6)*: the starting position is closer to the sweet spot.
+- **Luck of the Drunk** *(Lvl 6)*: 30% easier to pick locks while drunk, but 30% noisier.
+- **Silent Fiddler** *(Lvl 9)*: snapping-lockpick noise reduced by 90%.
+- **Sixth Sense** *(Lvl 9)*: warns you before someone catches you in the act.
+- **Master Thief** *(Lvl 12)*: easier locks open automatically · **Lucky Thief** *(Lvl 12)*: 10% chance a
+  breaking pick opens the lock anyway.
 
 ### Maintenance
-- **Serrated Edge** *(Level 6)*: Weapon sharpening increases bleeding chance.
-- **Stuffman** *(Level 6)*: Repairing clothes/light armor grants extra charisma.
-- **Tin Opener** *(Level 6)*: Repaired weapons deal +15% damage to heavy armor.
+- **Saville Row** *(Lvl 6)*: +0.5 Charisma per self-repaired garment worn, up to +2.
+- **Stuffing** *(Lvl 6)*: self-repaired armour is padded so it jangles less — a **stealth** bonus, not Charisma.
+- **Serrated Edge** *(Lvl 9)*: a self-sharpened weapon has a 15% greater chance of causing bleeding.
+- **Tin Opener** *(Lvl 9)*: a self-sharpened weapon does 15% more damage to the opponent's **armour and
+  equipment** (it wrecks their gear — it is not a flat damage bonus against plate).
+- **Blacksmith's Son** *(Lvl 12)*: weapons repaired with a repair kit hit 10% harder until badly damaged.
 
 ### Herbalism
-- **Leg Day** *(Level 10)*: Grants Strength XP when picking herbs.
-- **Resistance** *(Hidden Perk)*: Pick 100+ Nettles to get a permanent +2 Vitality boost.
-- **Flower Power** *(Level 6)*: +2 Charisma if carrying enough fresh flowers.
+- **Flower Power** *(Lvl 5)*: +2 Charisma while carrying 30 fragrant herbs (flowers only — mushrooms don't count).
+- **Horsenip** *(Lvl 5)*: 30 fragrant herbs in the saddlebag make your horse less shy.
+- **Leg Day** *(Lvl 10)*: herb-picking also grants Strength XP.
+- **Botanist** *(Lvl 10)*: herbs sell for 15% more.
+- **Resistance** *(hidden — gather 100 nettles/poisonous herbs)*: permanent +2 Vitality.
 
 ### Reading
-- **Cartographer** *(Level 10)*: Uncovers all points of interest on the map.
-- **Magistrate I, II, & III**: +1 Speech per tier when reading legal/official books.
+- **Magistrate I / II / III** *(Lvl 5 / 9 / 12)*: +1 / +2 / +3 Speech when **persuading guards** with erudition.
+- **Avid Reader** *(Lvl 7)*: your current book advances while sleeping or waiting.
+- **Swot** *(Lvl 9)*: you get the learning bonus wherever you read.
+- **Cartographer** *(Lvl 14)*: reveals the whole map — settlements, hunting spots and caves.
 
 ### Stealth
-- **Stealth Kill** *(Level 5)*: Silent dagger executions from behind.
-- **Crouching Chameleon** *(Level 8)*: +30% stealth bonus when crouching motionless in cover.
-- **Slim Fit** *(Level 10)*: Reduces noise generated by equipped armor by 20%.
+- **Takedown** *(Lvl 3)*: knock people out from a crouch · **Rain Man** *(Lvl 3)*: 70% quieter footsteps in rain.
+- **Stealth Kill** *(Lvl 5)*: silent kills from stealth while carrying a dagger.
+- **Crouching Chameleon** *(Lvl 5)*: +30% Stealth while crouching motionless.
+- **Slim Fit** *(Lvl 8)*: armour and equipment noise reduced by 20%.
+- **Et Tu, Brute** *(Lvl 10)*: +33% backstab damage — can accidentally kill targets you meant to rob.
+- **Dog Person** *(Lvl 10)*: dogs won't bark at you.
 
 ### Drinking
-- **Beer Bibber**: Drunkenness increases more slowly.
-- **Loose Tongue**: +2 Speech while drunk.
+- **Beer Bibber** *(Lvl 4)*: beer is 50% weaker for you — **but wine hits twice as hard** (exclusive with
+  Wine Bibber, which inverts it).
+- **Drinking Habit** *(Lvl 4)*: while drunk, 25% less hand shake and +2 Bow.
+- **Loose Tongue** *(Lvl 7)*: +1 Speech and Charisma while drunk; −1 to both while hungover.
+- **Drunk** *(Lvl 7)*: alcohol benefits last twice as long with no negatives short of blackout.
+- **True Slav** *(Lvl 7)*: get drunk on 50% less alcohol, hangovers last half as long.
+- **Safe Passage** *(Lvl 10)*: black out and you wake up at home with your inventory intact.
 
 ### Horsemanship
-- **Knight** *(Level 8)*: Increases damage dealt from horseback.
-- **Racehorse**: Increases horse speed for faster travel across Bohemia.
+- **Racehorse** *(Lvl 4)*: faster horse, lower carry capacity (exclusive with **Heavy Pony Duty**).
+- **Strong Thighs** *(Lvl 7)*: better chance of staying in the saddle when an enemy tries to unhorse you.
+- **Knight** *(Lvl 10)*: +15% damage in mounted combat, melee and ranged.
+- **Warhorse** *(Lvl 10)*: your horse won't shy near enemies unless struck.
+- **Jockey** *(Lvl 14)*: a horse will never throw you outside combat.
+
+---
+
+## Corrections log (2026-07-27)
+
+The previous revision of this note contained a large number of errors, all now fixed:
+
+- **Perks that do not exist** — removed: *Thick Skin* (Strength), *Light Touch* (Agility),
+  *Scabbard Slash* (Sword), *Blunt Strike as a stun perk*, *Tin Opener as a Mace perk*,
+  *Cuman Killer as a Bow perk*, *Serrated Edge/Stuffman at Maintenance 6*.
+- **Wrong tree** — *Headcracker* is Strength 8 (was listed as Main Level 2); *Blood Rush* is Vitality 9
+  (was Warfare 7); *Cuman Killer* is a hidden Main Level perk from 33 Cuman kills.
+- **Wrong level** — corrected: Clinch Master effect, Revenant (10→12), Thickblooded (6→3),
+  Marathon Man (8→3), Featherweight (4→8), Fast Striker (12→8), Contemplative (10→12),
+  Silver Tongue (4→8), Highborn (8→4), Empathetic (12→8), Sadist (6→8), Furious (10→8),
+  Deft Grip (3→6), Lasting Lockpicks (9→3), Water of Life (15→3), Bundle Alchemist (8→10),
+  Flower Power (6→5), Crouching Chameleon (8→5), Slim Fit (10→8), Cartographer (10→14),
+  Knight (8→10), Magistrate I–III (5/9/12).
+- **Wrong effect** — *Luck of the Drunk* does not unlock Very Hard locks (30% easier / 30% noisier);
+  *Tin Opener* damages enemy gear rather than adding damage vs. plate; *Stuffing* gives stealth, not
+  Charisma (Charisma from repaired clothes is *Saville Row*); *Beer Bibber* also makes wine twice as
+  strong; *Loose Tongue* is +1, not +2; *Magistrate* applies to persuading guards, not to reading books;
+  *Marathon Man* saves 20% Stamina, not 50%; *Clinch Master* is +1/3, not +50%.
+- **Perk vs. technique** — *Perfect Block* is a taught technique; *Master Strike* is a hidden perk from
+  Bernard's training; *Feint* is a Warfare perk trained by Bernard.
