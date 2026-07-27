@@ -26,6 +26,8 @@ source: https://kingdomcomedeliverance.wiki.gg/wiki/Perks
 >
 > New game? Start at [§4 Early-Game Tips & Tricks](#4-early-game-tips--tricks-first-10-hours) — the
 > saving system and the Rattay checklist matter more than any perk choice in the first ten hours.
+> Want the verdict on a specific perk? [§5 Full Perk Ratings](#5-full-perk-ratings) marks every one
+> in the game ★★★ / ★★ / ★.
 
 ## How perk points work
 
@@ -299,7 +301,283 @@ no money and no combat training. Almost everything gets better once the main que
 
 ---
 
+## 5. Full Perk Ratings
+
+Every perk in the game, rated. **Levels and effects are sourced; the ratings are opinion** — a ★ perk
+for a knight is sometimes a ★★★ perk for a thief, and the build notes call those cases out.
+
+| Mark | Meaning |
+| --- | --- |
+| ★★★ | **Recommend** — take it, usually the best use of the point in its tier. |
+| ★★ | **Leftover** — fine, situational, or a decent consolation when the tier has nothing better. |
+| ★ | **Do not pick** — weak, actively harmful, or made redundant by something else. |
+
+> [!important] Tiers force choices
+> Perk points arrive at fixed level thresholds, and several ★★★ perks sit on the *same* tier — you
+> cannot have both. Conflicts are flagged in the notes.
+
+### Stats
+
+#### Main Level — points at 2, 4, 6, 8, 10, 12
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Relieved | hidden (penance) | ★★★ | Free; faster learning after a good sleep. |
+| Cuman Killer | hidden (33 Cumans) | ★★★ | Free, and you'll pass 33 kills without trying. |
+| Master Strike | hidden (Bernard, weapon 3+) | ★★★ | The best unlock in the game. Get it immediately. |
+| Scout I / II / III | 2 / 6 / 10 | ★★ | Evasion on the travel map. Safe filler in weak tiers. |
+| Night Rider | 2 | ★★ | Only if you genuinely play nights. |
+| Wanderer | 2 | ★★ | Good for a bandit-camp playstyle, dead weight in town. |
+| Ascetic | 2 | ★ | Food is everywhere; the hunger penalty is worse than the benefit. |
+| Manly Odour | 2 | ★ | Trades your Stealth and general Charisma for a narrow bonus. |
+| First Aid I | 3 | ★★★ | Bandaging. Non-negotiable. |
+| Insomniac | 4 | ★★ | Reasonable filler on a weak tier. |
+| Renegade Brand | 4 | ★ | Only pays off if you plan on getting jailed. |
+| First Aid II | 6 | ★★★ | +25% bandages and in-dialogue healing. |
+| **Burgher** | 6 | ★★★ | +1 to four stats where you actually spend your time. Beats Savage. |
+| Savage | 6 | ★★ | Exclusive with Burgher; only for wilderness/hunting runs. |
+| Scholar | 8 | ★★ | +3 Reading is a real shortcut, but the Warfare penalty stings. |
+| Cloak and Dagger | 8 | ★★ | Strong for a pure thief, bad for anyone who fights. |
+| Ken | 8 | ★★ | +2 Charisma for −2 Strength — a talker's trade. |
+| Golden Tongue | 8 | ★★ | Same trade, aimed at Speech checks. |
+| Brute | 8 | ★ | The Charisma and Speech loss costs you more than +2 Strength gives. |
+| Juggler | 8 | ★ | Worst ratio on the tier. |
+| First Aid III | 10 | ★★★ | +50% bandages; the healing tree pays off across the whole game. |
+| Local Hero | 10 | ★★ | Reputation drifts upward naturally, so this is the easier half. |
+| Infamous | 10 | ★ | Requires deliberately tanking reputation, which taxes everything else. |
+| Contemplative | 12 | ★★★ | Hunger and tiredness freeze while you stand still — huge for crafting and waiting. |
+
+#### Strength
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Stronghold | 2 | ★★★ | −30% Stamina on blocks. Stamina is the real health bar. |
+| Gravedigger | 2 | ★★ | Body-hauling for stealth and tidy looting. |
+| **Mule I** | 4 | ★★★ | Carry weight is the binding constraint of the early game. |
+| Clinch Master | 4 | ★★ | Conflicts with Mule I. Clinches are avoidable if you position well. |
+| Tight Grip | 6 | ★★★ | Stamina regen never stalls in combat. Quietly one of the best perks. |
+| Boar | 6 | ★ | Sprint-bumping is a gimmick you'll use twice. |
+| Heavy Swing | 8 | ★★★ | +20% damage for +10% Stamina. Best raw-damage perk in the game. |
+| Headcracker | 8 | ★★★ | Conflicts with Heavy Swing and Mule II — pick by build; KOs keep quests non-lethal. |
+| Mule II | 8 | ★★★ | Third contender on a brutal tier. |
+| Mule III | 12 | ★★★ | +25 lbs, uncontested by then. |
+| Dreadful | 14 | ★★ | Nice once you're already unstoppable — i.e. when you least need it. |
+
+#### Agility
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Dodger | 4 | ★★ | Useful against groups, but Master Strike covers most of the same ground. |
+| Light Armour | 8 | ★★ | Only if you've committed to staying out of plate. |
+| Fast Striker | 8 | ★★ | −30% Stamina but −20% damage, and Agility weapons only. Real cost. |
+| Featherweight | 8 | ★ | You control when you fall. Weakest of its tier. |
+| Perfect Throw | 12 | ★★ | ★★★ if you farm dice for money — it's one of the best early income sources. |
+| Taunt | 12 | ★★ | Morale damage is pleasant, not decisive. |
+
+#### Vitality
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| **Marathon Man** | 3 | ★★★ | −20% sprint Stamina. Exclusive with Sprinter. |
+| Sprinter | 3 | ★★ | Take instead only if your plan for danger is running from it. |
+| Thickblooded | 3 | ★★ | Conflicts with the above; bleeding is survivable with bandages. |
+| Balanced Diet | 6 | ★★ | +1 Vitality and Agility for eating sensibly — free if you already do. |
+| Human Dustbin | 6 | ★ | Cancels the benefits along with the poison. |
+| Blood Rush | 9 | ★★★ | +50% attack after the first kill turns group fights around. |
+| Berserk | 9 | ★★ | Rewards being nearly dead, which is not a plan. |
+| **Revenant** | 12 | ★★★ | Passive regen removes most downtime. |
+| Last Gasp | 12 | ★★★ | Conflicts with Revenant. Last Gasp saves runs; Revenant saves time. |
+
+#### Speech
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Highborn | 4 | ★★★ | +3 with nobles — the main quest is wall-to-wall nobles. |
+| Lowborn | 4 | ★★ | Exclusive with Highborn; more checks by volume, fewer that matter. |
+| Final Offer | 4 | ★★ | A second bite at haggling. Decent filler. |
+| Empathetic | 8 | ★★★ | Shows the opponent's stats in skill-checks — removes all guesswork. |
+| Silver Tongue | 8 | ★★★ | Conflicts with Empathetic. Pure profit if you trade a lot. |
+| Troubadour | 8 | ★★ | Reputation with women plus free bathhouses — nicer than it sounds. |
+| Trustworthy Middleman | 12 | ★★ | ★★★ for a thief build; irrelevant if you don't steal. |
+
+### Combat
+
+#### Warfare
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Bailman | 0 | ★★ | Unhorsing matters in a handful of scripted fights. |
+| Feint | Bernard | ★★ | Works on humans, wasted effort against anyone good. |
+| Bloodletter | 4 | ★★ | Bleed pressure is decent, and it feeds Sadist later. |
+| Rusty Edge | 4 | ★ | Requires deliberately carrying a wrecked sword. |
+| **Sadist** | 8 | ★★★ | +1 Strength with near-permanent uptime once you cause bleeding. |
+| Furious | 8 | ★ | Pays you for being badly hurt. Bad incentive, worse in practice. |
+| Against All Odds | 12 | ★★★ | +20% to four combat stats whenever you're outnumbered — which is always. |
+| Chain Strike | 12 | ★★ | Real, but uninterrupted chains are rare against good opponents. |
+
+#### Defence
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Perfect Block | Bernard (technique) | ★★★ | Free, costs no Stamina. |
+| Firm Grip | 4 | ★★ | Shield builds only. |
+| Weapon-Cruncher | 4 | ★ | Damaging their weapon rarely decides a fight. |
+| Golem | 8 | ★★ | Intimidation is soft value. |
+| Well Worn | 12 | ★★★ | −1/3 equipment weight. Effectively a fourth Mule perk. |
+| Knight in Shining Armour | 12 | ★★ | +4 Charisma, but only in sunshine. |
+
+#### Sword, Mace, Axe — combos
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Zorn ort: Wrath Strike | Sword 3 | ★★ | The one combo short enough to actually land. |
+| All other sword combos | 3–13 | ★ | Long input strings that competent opponents interrupt. Master Strike is strictly better. |
+| Mace combos (Blunt Strike 8, Blinding Strike 9, Forearm 14) | — | ★ | Same problem. Maces beat plate through damage type, not combos. |
+| Axe combos (Blunt Strike 7, Forearm 7, Blinding Strike 14) | — | ★ | Same. |
+
+#### Bow, Unarmed, Halberd
+No perks exist for these in the vanilla game — the skill levels themselves do the work (bow sway, zoom
+and Stamina cost). Mods such as *Blood and Iron* add perk trees for all three. Bow-adjacent perks live
+in other trees: **Drinking Habit** (Drinking 4, +2 Bow while drunk) and **Knight** (Horsemanship 10).
+
+### Skills
+
+#### Alchemy
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Water of Life | 3 | ★★★ | +50% healing. The intoxication is a cosmetic problem. |
+| Witcher | 3 | ★★ | Lets you chain potions; competes with the above. |
+| Salted and Smoked | 3 | ★★ | Solid on a long wilderness run. |
+| Trial and Error | 5 | ★★ | Training wheels — pure value while you're learning recipes. |
+| Venomous Blade | 5 | ★ | Poison is a niche within a niche. |
+| Snake Oil Salesman | 8 | ★★ | +20% potion prices; alchemy is a genuine business. |
+| **Routine I** | 10 | ★★★ | Gateway to Routine II. Take this over Bundle Alchemist. |
+| Bundle Alchemist | 10 | ★★ | Doubles manual brewing but explicitly excludes auto-brew. |
+| Routine II | 13 | ★★★ | 3 potions for the price of 1, one click. Best economy perk in the game. |
+
+#### Lockpicking
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Lasting Lockpicks | 3 | ★★★ | Picks break constantly at low skill. |
+| Repairman | 3 | ★★ | Same problem, weaker answer. |
+| Deft Grip | 6 | ★★★ | Easier picks with no drawback attached. |
+| Luck of the Drunk | 6 | ★ | 30% louder, and only while drunk. The classic trap pick. |
+| Silent Fiddler | 9 | ★★★ | −90% snap noise is what actually gets you caught. |
+| Sixth Sense | 9 | ★★ | Warning is good; not being heard is better. |
+| Master Thief | 12 | ★★★ | Auto-opens easy locks — enormous time saving. |
+| Lucky Thief | 12 | ★★ | A 10% consolation prize. |
+
+#### Pickpocketing
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Secret Pockets | 2 | ★★★ | More money from every corpse you loot — works even if you never pickpocket. |
+| Comrade | 2 | ★★ | Narrow: same-Charisma targets only. |
+| Easy Way Out | 4 | ★★★ | Double cursor speed directly converts to more loot per attempt. |
+| Crowd Control | 4 | ★★ | Useful in markets. |
+| Pocket Sight I / II / III | 6 / 10 / 14 | ★★★ | Seeing the inventory is the whole skill. Take the line. |
+| Item Expert I / II | 6 / 10 | ★★ | Conflicts with Pocket Sight; stats matter less than knowing what's there. |
+| Friendly Neighbour | 8 | ★★ | Good insurance in your home villages. |
+| Hidden Pockets | 8 | ★ | Only pays out after you've already been caught. |
+
+#### Maintenance
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Seven Mile Boots | 3 | ★★★ | −20% sprint Stamina from boots you were repairing anyway. |
+| Fragrance | 3 | ★★ | +1 Charisma for a day. |
+| Saville Row | 6 | ★★★ | Up to +2 Charisma for free upkeep. |
+| Stuffing | 6 | ★★ | Quieter armour — take it on a stealth build instead. |
+| Serrated Edge | 9 | ★★ | +15% bleed chance; pairs with Sadist. |
+| Tin Opener | 9 | ★★ | Wrecks enemy gear rather than adding damage. Loot value, not combat value. |
+| Blacksmith's Son | 12 | ★★★ | +10% attack on repaired weapons, permanently. |
+| Well Groomed | 12 | ★★ | −15% wear. Convenience. |
+
+#### Herbalism
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Resistance | hidden (100 nettles) | ★★★ | Permanent +2 Vitality. Free, just slow. |
+| Leg Day | 10 | ★★★ | Turns herb-picking into Strength training. |
+| Flower Power | 5 | ★★ | +2 Charisma for 30 flowers of inventory weight. |
+| Botanist | 10 | ★★ | Conflicts with Leg Day; +15% herb prices. |
+| Horsenip | 5 | ★ | Solves a problem you can solve by buying a better horse. |
+
+#### Reading
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Avid Reader | 7 | ★★★ | Books progress while you sleep. Pure free time. |
+| Swot | 9 | ★★★ | Removes the "read only in the right place" tax entirely. |
+| Cartographer | 14 | ★★★ | Reveals the whole map. Worth levelling Reading for on its own. |
+| Colleague | 3 | ★★ | Cheaper books, and you'll buy a lot. |
+| In the Flow | 3 | ★★ | Reading stops being a survival cost. |
+| Art Connoisseur | 5 | ★★ | Free Charisma while travelling. |
+| Magistrate I / II / III | 5 / 9 / 12 | ★★ | +1/+2/+3 Speech against **guards** only — good for a criminal, dead otherwise. |
+| Cushion | 7 | ★★ | Conflicts with Avid Reader, which is strictly better. |
+
+#### Stealth
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Takedown | 3 | ★★★ | Non-lethal knockouts from a crouch. Opens up most quests. |
+| Stealth Kill | 5 | ★★★ | Silent kills with a dagger equipped. |
+| Slim Fit | 8 | ★★★ | −20% equipment noise — your armour is what gives you away. |
+| Rain Man | 3 | ★★ | Excellent, but only when it rains. |
+| Crouching Chameleon | 5 | ★★ | Conflicts with Stealth Kill; rewards standing still. |
+| Ordinary Mug | 8 | ★★ | Good after a botched job. |
+| Et Tu, Brute | 10 | ★★ | +33% backstab, but it can kill someone you meant to rob. |
+| Dog Person | 10 | ★★ | Village dogs are a genuine nuisance for burglars. |
+| Daring Debonair | 3 | ★ | A bonus that only applies while you're getting away with it. |
+
+#### Hunting
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Gamekeeper Rules the Woods | quest (*Cherchez la Femme*) | ★★★ | Legalises your meat. Makes hunting an income instead of a crime. |
+| Tanner | 5 | ★★★ | Hides are the real money in hunting. |
+| Wild at Heart | 8 | ★★★ | Less skittish game — the actual bottleneck when hunting with a bow. |
+| Antlers / Tusks | 3 / 3 | ★★ | Light, valuable trophies. |
+| Huntsman | 8 | ★★ | +20% damage to animals; conflicts with Wild at Heart. |
+| Forester | 10 | ★★ | Doubles as poaching insurance. |
+| Salty | 10 | ★★ | Raw meat keeps longer on long trips. |
+| Butcher | 5 | ★ | Offal is heavy and near-worthless. |
+| Steak Tartare | 13 | ★ | Solves nothing you can't solve with a campfire. |
+
+#### Drinking
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Drunk | 7 | ★★★ | Alcohol upside, no downside short of blackout. |
+| Safe Passage | 10 | ★★★ | Wake up at home with your inventory intact — real insurance. |
+| Beer Bibber / Wine Bibber | 4 | ★★ | Exclusive pair; whichever you drink less of doubles in strength. |
+| Drinking Habit | 4 | ★★ | +2 Bow and steadier hands while drunk. |
+| Loose Tongue | 7 | ★★ | +1 Speech and Charisma drunk, −1 hungover. Roughly break-even. |
+| True Slav | 7 | ★★ | Cheaper drunkenness, shorter hangovers. |
+| Top Shelf | 10 | ★★ | Matters only if you drink spirits. |
+| Bacchus | 10 | ★ | Trades blackouts for 30% worse hangovers. |
+
+#### Horsemanship
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Heavy Pony Duty | 4 | ★★★ | Your horse is your storage. Capacity beats speed here. |
+| Racehorse | 4 | ★★ | Exclusive with the above; only if you never over-loot. |
+| Strong Thighs | 7 | ★★★ | Being unhorsed mid-fight is how mounted characters die. |
+| Warhorse | 10 | ★★★ | A horse that shies near enemies makes mounted combat unusable. |
+| Knight | 10 | ★★ | Conflicts with Warhorse; +15% mounted damage is worth less than a steady horse. |
+| Jockey | 14 | ★★ | Convenience by the time you get it. |
+| Dread Steed | 7 | ★ | Rewards riding a wounded horse. |
+| Rider on the Storm | 7 | ★ | Trades a catastrophic storm penalty for a mild everyday gain. |
+
+#### Houndmaster *(A Woman's Lot DLC)*
+| Perk | Lvl | Mark | Note |
+| --- | --- | --- | --- |
+| Sic! | 5 | ★★★ | The dog attacking on command is the point of the whole tree. |
+| Alarm | 10 | ★★★ | Early warning of enemies, hands-free. |
+| Hunt | 3 | ★★ | Turns the dog into a hunting tool. |
+| Nice Doggy | 3 | ★★ | +1 Charisma. |
+| Sniffer | 5 | ★★ | Conflicts with Sic!. |
+| Faithful Companion | 8 | ★★ | Obedience upkeep. |
+| Tooth and Claw | 10 | ★★ | More bleeding from bites. |
+| Seek! / Chase | 13 / 13 | ★★ | Exploration convenience; Chase requires Sic!. |
+
+> [!warning] The dog and stealth don't mix
+> Mutt barks and gives you away. If you're running a thief build, the whole Houndmaster tree is ★.
+
+---
+
 ## Revision log
+
+### 2026-07-27 — added full perk ratings
+Added section 5: every perk in the game marked ★★★ / ★★ / ★. Completed coverage of the trees the
+earlier passes skipped (Axe, Pickpocketing, Hunting, Houndmaster) and confirmed Bow, Unarmed and
+Halberd have no vanilla perks. Levels and effects are wiki-sourced; the marks are opinion and are
+flagged as such.
 
 ### 2026-07-27 — added early-game tips
 Added section 4 (Early-Game Tips & Tricks), verified against the wiki quest and mechanics pages plus
