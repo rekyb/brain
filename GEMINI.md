@@ -17,6 +17,7 @@ Agents (like Gemini / Antigravity) read this vault as **background context** whi
 | `20-projects/<project>/specs/` | Authoritative **specs** — what to build, with acceptance criteria. |
 | `40-references/` | External sources, clippings, quotes. |
 | `90-templates/` | Note templates: `knowledge-note`, `context-note`, `spec`, `project-index`. |
+| `100-oot/` | Out-of-topic, hobbies, and personal notes. |
 | `attachments/` | Binaries (images, PDFs). Created on first use. |
 | `docs/superpowers/` | Agent workflow artifacts (design specs, plans). **Not vault content** — historical; do not read as current state. Graph-isolated: no links to/from real notes. |
 

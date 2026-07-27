@@ -45,6 +45,7 @@ brain/
 │       └── specs/        # what to build
 ├── 40-references/    # external sources, clippings
 ├── 90-templates/     # note / context / spec / project templates
+├── 100-oot/          # out of topic, hobbies, personal notes
 └── attachments/      # images, PDFs, binaries (created on first use)
 ```
 
