@@ -23,6 +23,9 @@ source: https://kingdomcomedeliverance.wiki.gg/wiki/Perks
 > (potion auto-brewing, 3 potions for the price of 1), **Headcracker** (Strength 8, non-lethal KOs),
 > and **Cartographer** (Reading 14, reveals the whole map). **Revenant** and **Last Gasp** (Vitality 12)
 > are the strongest survivability picks.
+>
+> New game? Start at [§4 Early-Game Tips & Tricks](#4-early-game-tips--tricks-first-10-hours) — the
+> saving system and the Rattay checklist matter more than any perk choice in the first ten hours.
 
 ## How perk points work
 
@@ -219,7 +222,91 @@ Sword "perks" are historical **combos**, unlocked by Sword skill level and pract
 
 ---
 
-## Corrections log (2026-07-27)
+## 4. Early-Game Tips & Tricks (first ~10 hours)
+
+The opening hours are the hardest part of the game: Henry is deliberately incompetent, has no horse,
+no money and no combat training. Almost everything gets better once the main quest reaches **Rattay**.
+
+### Saving — read this first
+- There is **no quicksave**. The game saves when you: sleep at least an hour in a bed you **own or have
+  rented**, use a **bathhouse** bed (~30 groschen — also heals wounds and washes off blood), drink
+  **Saviour Schnapps**, or use **Save and Quit**.
+- Saves rotate through a small number of slots, so an old save is not a permanent checkpoint. Sleep
+  before anything risky: a duel, a night burglary, a timed quest.
+- **Saviour Schnapps** is the whole game's quality-of-life unlock. Recipe: **wine** base, **1 nettle**,
+  **2 belladonna**. The recipe is already in your book but is gibberish until you can read — see below.
+  Buy out every apothecary's stock early, then brew your own in bulk once Alchemy allows.
+
+### The Rattay checklist
+- **[Train Hard, Fight Easy](https://kingdomcomedeliverance.wiki.gg/wiki/Train_Hard,_Fight_Easy)** —
+  Captain Bernard at the Rattay training grounds, available after *Awakening* and entering Radzig's
+  service. Pays 70 groschen; beat Hans Capon at both the archery contest and the sword duel to win his
+  hunting bow.
+- **Go back to Bernard afterwards.** Training with him unlocks combos and, at weapon skill 3+,
+  **Master Strike** — for all weapon types at once. Sparring is also the only zero-risk way to grind
+  combat skills, since you cannot die in a mock duel.
+- **Bow training** with Berthold and Nicholas becomes available at the same time.
+- **[The Good Thief](https://kingdomcomedeliverance.wiki.gg/wiki/The_Good_Thief)** — from Miller Peshek.
+  Clears your 100 groschen of debt, introduces lockpicking, turns the **millers into fences**, and opens
+  the *Thick as Thieves* jobs. Peshek also trains **Lockpicking and Pickpocketing**.
+- **[Mightier than the Sword](https://kingdomcomedeliverance.wiki.gg/wiki/Reading)** — until you finish
+  it every book is literally gibberish, which also blocks the Saviour Schnapps recipe and all the
+  stat-boosting books. Do it early.
+
+### Combat
+- **Stamina is your real health bar.** Attacks and blocks both drain it; once it's empty, blows land
+  straight on your Health. Health does **not** regenerate during a fight.
+- **Master Strike beats combos.** Combos look impressive but competent opponents interrupt them.
+  Block on the green shield cue and let the automatic counter do the work.
+- **Never fight a group in the open.** Back into a doorway or narrow path so they come one at a time,
+  and lock focus onto a single target. Running away is a legitimate tactic, not a failure.
+- **Match the weapon to the armour**: blunt impact (mace, axe, hammer) against plate; slashing and
+  stabbing (sword, sabre) against unarmoured or lightly armoured enemies. A sword against full plate is
+  close to useless.
+- **Clinches**: kick to initiate, then hammer the attack button to overpower them — the winner gets a
+  free hit. *Clinch Master* (Strength 4) improves the odds.
+- Bandage **bleeding** the moment a fight ends, and treat fractures — untreated injuries cap your Health.
+
+### Money
+- **Herbalism is the safest early income** and levels a skill at the same time. Nettles do double duty:
+  they're a Saviour Schnapps ingredient, and gathering **100** grants the hidden *Resistance* perk
+  (+2 Vitality). *Leg Day* (Herbalism 10) makes picking herbs train Strength too.
+- **Loot selectively.** Bandit and Cuman gear is heavy and mostly rusty junk; take rings, coin, and
+  intact weapons. Over the weight limit you cannot sprint and fight noticeably worse.
+- **Stolen goods are flagged.** Sell them to the miller fences (Peshek, Woyzeck, Simon), or stash them
+  in a chest for one to two in-game weeks until the flag clears and any merchant will take them.
+- **Traders deal only in their own category and have limited purses**, so a big haul has to be split
+  across several merchants and towns.
+- **Sell damaged gear only after repairing it** — condition drives price directly.
+
+### Survival, stats and gear upkeep
+- Keep hunger near 100% but don't overeat, and avoid food below roughly 50% freshness — food poisoning
+  is a real debuff. Cooked and cured food keeps much longer (*Salted and Smoked*, Alchemy 3).
+- Sleep in decent beds; poor bedding gives poor rest. *Wanderer* (Main 2) inverts this if you plan to
+  live rough.
+- **Wash.** Blood and grime gut your Charisma and make you recognisable after a crime. Bathhouses fix
+  all of it at once, and *Fragrance* / *Saville Row* (Maintenance 3 / 6) convert laundry into Charisma.
+- **Repair everything.** Any smithy's grindstone sharpens weapons cheaply; clothing and armour need
+  repair kits. Damaged equipment loses effectiveness proportionally.
+- Gear has **stat requirements** — wearing armour you're too weak for penalises you rather than helping.
+- Use your **horse's saddlebags** as mobile storage until *Mule I–III* fixes carry weight properly.
+
+### Skill grinding
+- Skills only rise through **use**, not quest completion: spar with Bernard, pick every herb you pass,
+  pick every unlocked chest, ride everywhere instead of fast-travelling.
+- Trainers charge real money for early levels — self-train first and spend the groschen on gear,
+  Saviour Schnapps, and bribes.
+
+---
+
+## Revision log
+
+### 2026-07-27 — added early-game tips
+Added section 4 (Early-Game Tips & Tricks), verified against the wiki quest and mechanics pages plus
+gamepressure's beginner guide. Deliberately excluded unverifiable community claims; merchant purse
+regeneration timing is omitted because no reliable source confirmed it.
+
+### 2026-07-27 — perk fact-check
 
 The previous revision of this note contained a large number of errors, all now fixed:
 
